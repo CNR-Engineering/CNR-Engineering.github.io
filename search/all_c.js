@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['script_5ftemplate_5fusing_5flogger',['script_template_using_logger',['../namespacescript__template__using__logger.html',1,'']]],
   ['selectedtimeinfo',['SelectedTimeINFO',['../classslf__interface_1_1_selected_time_i_n_f_o.html',1,'slf_interface']]],
   ['serafin',['Serafin',['../classslf_1_1_serafin_1_1_serafin.html',1,'slf::Serafin']]],
   ['serafin',['Serafin',['../namespaceslf_1_1_serafin.html',1,'slf']]],
