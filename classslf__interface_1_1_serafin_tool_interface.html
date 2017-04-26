@@ -84,7 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>slf_interface</b></li><li class="navelem"><a class="el" href="classslf__interface_1_1_serafin_tool_interface.html">SerafinToolInterface</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespaceslf__interface.html">slf_interface</a></li><li class="navelem"><a class="el" href="classslf__interface_1_1_serafin_tool_interface.html">SerafinToolInterface</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -96,6 +96,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">slf_interface.SerafinToolInterface Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A graphical interface for extracting and computing variables from .slf file.  
+ <a href="classslf__interface_1_1_serafin_tool_interface.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for slf_interface.SerafinToolInterface:</div>
 <div class="dyncontent">
@@ -110,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a495ccfb8ff3da19bce77d95441259d84"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a495ccfb8ff3da19bce77d95441259d84"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self)</td></tr>
 <tr class="separator:a495ccfb8ff3da19bce77d95441259d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f77ab1fc96fedf8252db3b3c2c425d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5f77ab1fc96fedf8252db3b3c2c425d"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>btnAddUSEvent</b> (self)</td></tr>
+<tr class="separator:ac5f77ab1fc96fedf8252db3b3c2c425d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4f2d7e291824fd51ed68dd3a127356c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad4f2d7e291824fd51ed68dd3a127356c"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>btnOpenEvent</b> (self)</td></tr>
 <tr class="separator:ad4f2d7e291824fd51ed68dd3a127356c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,9 +137,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af344ad3f1031e73e0cbcece808fb2ec0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af344ad3f1031e73e0cbcece808fb2ec0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>time</b></td></tr>
 <tr class="separator:af344ad3f1031e73e0cbcece808fb2ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8317cb650cae9ac986dd8eda7463ee2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af8317cb650cae9ac986dd8eda7463ee2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>additional_computations</b></td></tr>
-<tr class="separator:af8317cb650cae9ac986dd8eda7463ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a951c4c71997442d8f7fb792b859916c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a951c4c71997442d8f7fb792b859916c9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>available_vars</b></td></tr>
+<tr class="separator:a951c4c71997442d8f7fb792b859916c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11bae6a4b163aaf4a4f0709f307125d8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11bae6a4b163aaf4a4f0709f307125d8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>us_equation</b></td></tr>
+<tr class="separator:a11bae6a4b163aaf4a4f0709f307125d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5565dca9c29e5950da4d2f48545d51d2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5565dca9c29e5950da4d2f48545d51d2"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>btnOpen</b></td></tr>
 <tr class="separator:a5565dca9c29e5950da4d2f48545d51d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,13 +170,22 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a788f95866b15c725a7ed9b0b1b6b87eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a788f95866b15c725a7ed9b0b1b6b87eb"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>logTextBox</b></td></tr>
 <tr class="separator:a788f95866b15c725a7ed9b0b1b6b87eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a927c50ee86c3399d6d7ec8573e852b98"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a927c50ee86c3399d6d7ec8573e852b98"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>singlePrecisionBox</b></td></tr>
+<tr class="separator:a927c50ee86c3399d6d7ec8573e852b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7f68c568327d3cfd6e505e3a0c6f15a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab7f68c568327d3cfd6e505e3a0c6f15a"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>timeSlider</b></td></tr>
+<tr class="separator:ab7f68c568327d3cfd6e505e3a0c6f15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f496b6c23ac8a4d1f4464fab9aacb61"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f496b6c23ac8a4d1f4464fab9aacb61"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>timeSelection</b></td></tr>
+<tr class="separator:a3f496b6c23ac8a4d1f4464fab9aacb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36817f581d9a24b135b198688ae52cb2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36817f581d9a24b135b198688ae52cb2"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>btnSubmit</b></td></tr>
 <tr class="separator:a36817f581d9a24b135b198688ae52cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><pre class="fragment">@brief: A graphical interface for extracting and computing variables from .slf file
-</pre> </div><hr/>The documentation for this class was generated from the following file:<ul>
+<div class="textblock"><p>A graphical interface for extracting and computing variables from .slf file. </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>slf_interface.py</li>
 </ul>
 </div><!-- contents -->

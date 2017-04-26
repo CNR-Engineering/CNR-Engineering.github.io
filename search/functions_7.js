@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['var_5fid_5fto_5findex',['var_ID_to_index',['../classslf_1_1_serafin_1_1_serafin.html#a28ad3a33ff8df189fd3255ce1dd47aea',1,'slf::Serafin::Serafin']]]
+  ['read_5fheader',['read_header',['../classslf_1_1_serafin_1_1_serafin.html#ab016b5f94557cd81bfb777817c3de94e',1,'slf::Serafin::Serafin']]],
+  ['read_5fvar_5fin_5fframe',['read_var_in_frame',['../classslf_1_1_serafin_1_1_read.html#aa907369ad4044e6ea920107ae94fa430',1,'slf::Serafin::Read']]]
 ];
