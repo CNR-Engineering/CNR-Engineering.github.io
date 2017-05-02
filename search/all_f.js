@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['write',['Write',['../classslf_1_1_serafin_1_1_write.html',1,'slf::Serafin']]],
-  ['write_5fentire_5fframe',['write_entire_frame',['../classslf_1_1_serafin_1_1_write.html#af30d3c353fac951d8ce968377930c9c2',1,'slf::Serafin::Write']]],
-  ['write_5fheader',['write_header',['../classslf_1_1_serafin_1_1_write.html#a4944db4a6d63ead915887e6fbd356d55',1,'slf::Serafin::Write']]]
+  ['var_5fid_5fto_5findex',['var_ID_to_index',['../classslf_1_1_serafin_1_1_serafin.html#a28ad3a33ff8df189fd3255ce1dd47aea',1,'slf::Serafin::Serafin']]],
+  ['variable',['Variable',['../classslf_1_1variables_1_1_variable.html',1,'slf::variables']]]
 ];

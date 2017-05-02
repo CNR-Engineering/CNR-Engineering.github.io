@@ -1,14 +1,7 @@
 var searchData=
 [
-  ['selectedtimeinfo',['SelectedTimeINFO',['../classslf__interface_1_1_selected_time_i_n_f_o.html',1,'slf_interface']]],
-  ['serafin',['Serafin',['../classslf_1_1_serafin_1_1_serafin.html',1,'slf::Serafin']]],
-  ['serafin',['Serafin',['../namespaceslf_1_1_serafin.html',1,'slf']]],
-  ['serafinheader',['SerafinHeader',['../classslf_1_1_serafin_1_1_serafin_header.html',1,'slf::Serafin']]],
-  ['serafinrequesterror',['SerafinRequestError',['../classslf_1_1_serafin_1_1_serafin_request_error.html',1,'slf::Serafin']]],
-  ['serafintoolinterface',['SerafinToolInterface',['../classslf__interface_1_1_serafin_tool_interface.html',1,'slf_interface']]],
-  ['serafinvalidationerror',['SerafinValidationError',['../classslf_1_1_serafin_1_1_serafin_validation_error.html',1,'slf::Serafin']]],
-  ['serafinvariablenames',['SerafinVariableNames',['../classslf_1_1_serafin_1_1_serafin_variable_names.html',1,'slf::Serafin']]],
-  ['serafinvariables',['SerafinVariables',['../namespaceslf_1_1_serafin_variables.html',1,'slf']]],
-  ['slf_5finterface',['slf_interface',['../namespaceslf__interface.html',1,'']]],
-  ['testserafinvariables',['TestSerafinVariables',['../namespaceslf_1_1_test_serafin_variables.html',1,'slf']]]
+  ['read',['Read',['../classgeom_1_1_blue_kenue_1_1_read.html',1,'geom::BlueKenue']]],
+  ['read',['Read',['../classslf_1_1_serafin_1_1_read.html',1,'slf::Serafin']]],
+  ['read_5fheader',['read_header',['../classslf_1_1_serafin_1_1_serafin.html#ab016b5f94557cd81bfb777817c3de94e',1,'slf::Serafin::Serafin']]],
+  ['read_5fvar_5fin_5fframe',['read_var_in_frame',['../classslf_1_1_serafin_1_1_read.html#aa907369ad4044e6ea920107ae94fa430',1,'slf::Serafin::Read']]]
 ];

@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['serafin',['Serafin',['../namespaceslf_1_1_serafin.html',1,'slf']]],
-  ['serafinvariables',['SerafinVariables',['../namespaceslf_1_1_serafin_variables.html',1,'slf']]],
-  ['slf_5finterface',['slf_interface',['../namespaceslf__interface.html',1,'']]],
-  ['testserafinvariables',['TestSerafinVariables',['../namespaceslf_1_1_test_serafin_variables.html',1,'slf']]]
+  ['polyline',['Polyline',['../namespacegeom_1_1_polyline.html',1,'geom']]]
 ];
