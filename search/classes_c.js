@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write',['Write',['../classslf_1_1_serafin_1_1_write.html',1,'slf::Serafin']]]
+  ['qplaintexteditlogger',['QPlainTextEditLogger',['../classgui_1_1util_1_1_q_plain_text_edit_logger.html',1,'gui::util']]]
 ];

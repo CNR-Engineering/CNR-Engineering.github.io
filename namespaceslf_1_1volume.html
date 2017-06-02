@@ -39,7 +39,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
-      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
       <li class="current"><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li>
@@ -87,8 +86,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
 <div class="title">slf.volume Namespace Reference</div>  </div>
 </div><!--header-->
@@ -100,20 +98,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1volume_1_1_truncated_triangular_prisms.html">TruncatedTriangularPrisms</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The representation of <a class="el" href="namespaceslf_1_1_mesh2_d.html" title="The general representation of mesh in serafin 2D basis for interpolation, volume calculations etc...">Mesh2D</a> in <a class="el" href="namespaceslf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> file when the calculating the volume over mesh of some variables.  <a href="classslf_1_1volume_1_1_truncated_triangular_prisms.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The representation of Mesh2D in <a class="el" href="namespaceslf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> file when one computes the volume inside polygons of some variables.  <a href="classslf_1_1volume_1_1_truncated_triangular_prisms.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a879f8e34a2a042378afd13a6c1a74998"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a879f8e34a2a042378afd13a6c1a74998"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>volume_net_strict</b> (var_ID, input_stream, output_stream, polynames, polygons, time_sampling_frequency=1)</td></tr>
-<tr class="separator:a879f8e34a2a042378afd13a6c1a74998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a233a538f4ddde063593417ef2e3ddac0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a233a538f4ddde063593417ef2e3ddac0"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>volume_net</b> (var_ID, input_stream, output_stream, polynames, polygons, time_sampling_frequency=1)</td></tr>
-<tr class="separator:a233a538f4ddde063593417ef2e3ddac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5330f1c1cb89b25ac3a51f0c59803384"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5330f1c1cb89b25ac3a51f0c59803384"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>volume_superior</b> (var_ID, input_stream, output_stream, polynames, polygons, time_sampling_frequency=1)</td></tr>
-<tr class="separator:a5330f1c1cb89b25ac3a51f0c59803384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1volume_1_1_volume_calculator.html">VolumeCalculator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute volumes inside polygons from a .slf input stream.  <a href="classslf_1_1volume_1_1_volume_calculator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Volume calculations in polygons. </p>

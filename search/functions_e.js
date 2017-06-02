@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['write',['write',['../classgeom_1_1dataset_1_1_write_file.html#a9f1001055bad3418fabd79aee73f3618',1,'geom::dataset::WriteFile']]],
-  ['write_5fentire_5fframe',['write_entire_frame',['../class_serafin_1_1_write.html#af3459d77d9828d00e9590174fedcd445',1,'Serafin.Write.write_entire_frame()'],['../classslf_1_1_serafin_1_1_write.html#af30d3c353fac951d8ce968377930c9c2',1,'slf.Serafin.Write.write_entire_frame()']]],
-  ['write_5fheader',['write_header',['../classgeom_1_1dataset_1_1_blue_kenue.html#ae7a3bebfc160e938c5ec6b896ae12a56',1,'geom.dataset.BlueKenue.write_header()'],['../classgeom_1_1dataset_1_1_write___s_x.html#af8c1f25c1e9ce80c14a1b87cf145c1ad',1,'geom.dataset.Write_SX.write_header()'],['../class_serafin_1_1_write.html#a98715b63c5f1b65d07059aaacfc09a41',1,'Serafin.Write.write_header()'],['../classslf_1_1_serafin_1_1_write.html#a4944db4a6d63ead915887e6fbd356d55',1,'slf.Serafin.Write.write_header()']]],
-  ['write_5fpolyline',['write_polyline',['../classgeom_1_1dataset_1_1_write___s_x.html#a38c3ddacfeff646096bc488aa04eb89f',1,'geom::dataset::Write_SX']]]
+  ['scalars_5fvectors',['scalars_vectors',['../namespaceslf_1_1misc.html#a47084ee5f414cf98ead15c2573f9eaea',1,'slf::misc']]],
+  ['section_5fintersection',['section_intersection',['../classslf_1_1flux_1_1_triangular_vector_field.html#a2b1159ac86f07b1e8dea754f8f00af9c',1,'slf::flux::TriangularVectorField']]],
+  ['six_5fparameters_5foptimization',['six_parameters_optimization',['../namespacegeom_1_1transformation.html#a30d9318f5d07b1103eb27713cd8c21a5',1,'geom::transformation']]],
+  ['superior_5fprism_5fvolume',['superior_prism_volume',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#ab9daa82d99ccf06d70de74c5e53b0e3b',1,'slf::volume::TruncatedTriangularPrisms']]],
+  ['superior_5fprism_5fvolume_5fin_5fintersection',['superior_prism_volume_in_intersection',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#ab2b7c1b92e69f1a660b86d4638b5c67e',1,'slf::volume::TruncatedTriangularPrisms']]]
 ];

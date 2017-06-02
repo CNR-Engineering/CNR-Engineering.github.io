@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['frictionlawmessage',['FrictionLawMessage',['../classslf__interface_1_1_friction_law_message.html',1,'slf_interface']]]
+  ['doubletimeselection',['DoubleTimeSelection',['../classgui_1_1_compare_results_g_u_i_1_1_double_time_selection.html',1,'gui::CompareResultsGUI']]]
 ];

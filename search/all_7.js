@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['interpolator',['Interpolator',['../classslf_1_1interpolation_1_1_interpolator.html',1,'slf::interpolation']]],
-  ['is_5fbasic_5fvariable',['is_basic_variable',['../namespaceslf_1_1variables.html#ae11a8deef4b5f0f7885fad639de3514d',1,'slf::variables']]]
+  ['htmldelegate',['HTMLDelegate',['../classgui_1_1util_1_1_h_t_m_l_delegate.html',1,'gui::util']]]
 ];

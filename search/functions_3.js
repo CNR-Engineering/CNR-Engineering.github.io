@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['exception_5fhook',['exception_hook',['../namespaceslf__interface.html#a13331ee0ec03ef0e107df1ac9e897add',1,'slf_interface']]],
-  ['extra_5fvolume_5fin_5fpolygon',['extra_volume_in_polygon',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#a28e4f14435a1992625fb009c617df2b1',1,'slf::volume::TruncatedTriangularPrisms']]]
+  ['do_5fcalculation',['do_calculation',['../namespaceslf_1_1variables.html#ae4e5c3af6886e164b42ca01bc9a3a3d4',1,'slf::variables']]],
+  ['do_5fcalculations_5fin_5fframe',['do_calculations_in_frame',['../namespaceslf_1_1variables.html#af6517b5544c2e31b9a1a4314664bfef6',1,'slf::variables']]]
 ];

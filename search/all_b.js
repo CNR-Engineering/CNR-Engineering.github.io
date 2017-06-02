@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qplaintexteditlogger',['QPlainTextEditLogger',['../classslf__interface_1_1_q_plain_text_edit_logger.html',1,'slf_interface']]]
+  ['name_5fto_5fid',['name_to_ID',['../classslf_1_1_serafin_1_1_serafin_variable_names.html#a8f0877d01886fb78260924deeeda477c',1,'slf::Serafin::SerafinVariableNames']]]
 ];
