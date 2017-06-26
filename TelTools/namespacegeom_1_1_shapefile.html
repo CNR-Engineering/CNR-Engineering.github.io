@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">geom.Shapefile Namespace Reference</div>  </div>
@@ -73,23 +74,44 @@ $(function() {
 <p>Read and write .shp files.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeom_1_1_shapefile_1_1_my_writer.html">MyWriter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a reimplementation of Writer class of pyshp 1.2.11 The MultiPointZ- and MultiPointM-writing bug is fixed by changing four lines see the lines commented with # HERE GOES THE REIMPLEMENTATION.  <a href="classgeom_1_1_shapefile_1_1_my_writer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:af70517e24de52e4d81098aa21e495ad8"><td class="memItemLeft" align="right" valign="top"><a id="af70517e24de52e4d81098aa21e495ad8"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_shape_type</b> (input_filename)</td></tr>
+<tr class="separator:af70517e24de52e4d81098aa21e495ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408eb6ca742da0195ac46bdc736722b9"><td class="memItemLeft" align="right" valign="top"><a id="a408eb6ca742da0195ac46bdc736722b9"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_lines</b> (input_filename, shape_type)</td></tr>
+<tr class="separator:a408eb6ca742da0195ac46bdc736722b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae808682d61327177bb6e24701141a724"><td class="memItemLeft" align="right" valign="top"><a id="ae808682d61327177bb6e24701141a724"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_open_polylines</b> (input_filename)</td></tr>
 <tr class="separator:ae808682d61327177bb6e24701141a724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0824d7a6b64554fc03e17e79c707161d"><td class="memItemLeft" align="right" valign="top"><a id="a0824d7a6b64554fc03e17e79c707161d"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_polygons</b> (input_filename)</td></tr>
 <tr class="separator:a0824d7a6b64554fc03e17e79c707161d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42df91cec9cc1776db65450960a08324"><td class="memItemLeft" align="right" valign="top"><a id="a42df91cec9cc1776db65450960a08324"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_all_fields</b> (input_filename)</td></tr>
+<tr class="separator:a42df91cec9cc1776db65450960a08324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88011a029c5cba938441174ff08eb538"><td class="memItemLeft" align="right" valign="top"><a id="a88011a029c5cba938441174ff08eb538"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_attribute_names</b> (input_filename)</td></tr>
 <tr class="separator:a88011a029c5cba938441174ff08eb538"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88423e6c472defc49248a5a989c9a2cf"><td class="memItemLeft" align="right" valign="top"><a id="a88423e6c472defc49248a5a989c9a2cf"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>get_points</b> (input_filename, indices=None)</td></tr>
-<tr class="separator:a88423e6c472defc49248a5a989c9a2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbe523706cefa5ded144d0c7ca392f93"><td class="memItemLeft" align="right" valign="top"><a id="afbe523706cefa5ded144d0c7ca392f93"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>write_xyz_points</b> (output_filename, z_name, points)</td></tr>
-<tr class="separator:afbe523706cefa5ded144d0c7ca392f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9ac8fc96b824ce6db55b5cc240a876"><td class="memItemLeft" align="right" valign="top"><a id="aec9ac8fc96b824ce6db55b5cc240a876"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_numeric_attribute_names</b> (input_filename)</td></tr>
+<tr class="separator:aec9ac8fc96b824ce6db55b5cc240a876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf8c20e7cd5417d91fa4f5826950b37"><td class="memItemLeft" align="right" valign="top"><a id="acdf8c20e7cd5417d91fa4f5826950b37"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>get_points</b> (input_filename, indices=None, with_z=False)</td></tr>
+<tr class="separator:acdf8c20e7cd5417d91fa4f5826950b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94cb8828d8b559f884c76a7ca85f7b4"><td class="memItemLeft" align="right" valign="top"><a id="ab94cb8828d8b559f884c76a7ca85f7b4"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_bk_points</b> (output_filename, z_name, points)</td></tr>
+<tr class="separator:ab94cb8828d8b559f884c76a7ca85f7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955dff8c08dd7316e9d29e71fc79bcb7"><td class="memItemLeft" align="right" valign="top"><a id="a955dff8c08dd7316e9d29e71fc79bcb7"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_bk_lines</b> (output_filename, shape_type, lines, attribute_name, m_array=None)</td></tr>
+<tr class="separator:a955dff8c08dd7316e9d29e71fc79bcb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Read and write .shp files. </p>

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['read',['Read',['../classgeom_1_1_blue_kenue_1_1_read.html',1,'geom.BlueKenue.Read'],['../classslf_1_1_serafin_1_1_read.html',1,'slf.Serafin.Read']]],
-  ['referencemesh',['ReferenceMesh',['../classslf_1_1comparison_1_1_reference_mesh.html',1,'slf::comparison']]],
-  ['rotation',['Rotation',['../classgeom_1_1transformation_1_1_rotation.html',1,'geom::transformation']]]
+  ['qplaintexteditlogger',['QPlainTextEditLogger',['../classgui_1_1util_1_1_q_plain_text_edit_logger.html',1,'gui.util.QPlainTextEditLogger'],['../classgui_1_1util___l_d_n_1_1_q_plain_text_edit_logger.html',1,'gui.util_LDN.QPlainTextEditLogger']]]
 ];

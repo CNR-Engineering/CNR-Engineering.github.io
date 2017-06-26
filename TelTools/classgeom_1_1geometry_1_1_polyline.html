@@ -66,6 +66,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classgeom_1_1geometry_1_1_polyline-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">geom.geometry.Polyline Class Reference</div>  </div>
@@ -77,24 +78,39 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae33c36d7924e7f11be3de475b8fe79ec"><td class="memItemLeft" align="right" valign="top"><a id="ae33c36d7924e7f11be3de475b8fe79ec"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, coordinates)</td></tr>
-<tr class="separator:ae33c36d7924e7f11be3de475b8fe79ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dcc0cfb8ea99f0c879b4695a1488c35"><td class="memItemLeft" align="right" valign="top"><a id="a0dcc0cfb8ea99f0c879b4695a1488c35"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, coordinates, attributes=None, z_array=None, m_array=None)</td></tr>
+<tr class="separator:a0dcc0cfb8ea99f0c879b4695a1488c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eeac111f07386134a57427ce9251cf2"><td class="memItemLeft" align="right" valign="top"><a id="a4eeac111f07386134a57427ce9251cf2"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>to_3d</b> (self, z_array)</td></tr>
+<tr class="separator:a4eeac111f07386134a57427ce9251cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a614f22034a98ca986cc02cb658feeb5e"><td class="memItemLeft" align="right" valign="top"><a id="a614f22034a98ca986cc02cb658feeb5e"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>to_2d</b> (self)</td></tr>
+<tr class="separator:a614f22034a98ca986cc02cb658feeb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae9003ff988163b905af1c557b86980"><td class="memItemLeft" align="right" valign="top"><a id="a1ae9003ff988163b905af1c557b86980"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>is_2d</b> (self)</td></tr>
+<tr class="separator:a1ae9003ff988163b905af1c557b86980"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d773f9bd50dd51c893fd8dcd9db3183"><td class="memItemLeft" align="right" valign="top"><a id="a0d773f9bd50dd51c893fd8dcd9db3183"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>is_closed</b> (self)</td></tr>
 <tr class="separator:a0d773f9bd50dd51c893fd8dcd9db3183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2b83d80786239dee54111c623ca5737"><td class="memItemLeft" align="right" valign="top"><a id="ab2b83d80786239dee54111c623ca5737"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>nb_points</b> (self)</td></tr>
 <tr class="separator:ab2b83d80786239dee54111c623ca5737"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a6ba2e2c08bc98e54b284976ee51ffa"><td class="memItemLeft" align="right" valign="top"><a id="a2a6ba2e2c08bc98e54b284976ee51ffa"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>attributes</b> (self)</td></tr>
+<tr class="separator:a2a6ba2e2c08bc98e54b284976ee51ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f5995ae61fa163faf5ed89e243a8496"><td class="memItemLeft" align="right" valign="top"><a id="a7f5995ae61fa163faf5ed89e243a8496"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>add_attribute</b> (self, attribute)</td></tr>
+<tr class="separator:a7f5995ae61fa163faf5ed89e243a8496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6220ce27c58cc9ce5864d16b7a16dd"><td class="memItemLeft" align="right" valign="top"><a id="a9f6220ce27c58cc9ce5864d16b7a16dd"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>coords</b> (self)</td></tr>
 <tr class="separator:a9f6220ce27c58cc9ce5864d16b7a16dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60e96826aa17262902aede1b301d3aa8"><td class="memItemLeft" align="right" valign="top"><a id="a60e96826aa17262902aede1b301d3aa8"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>polyline</b> (self)</td></tr>
 <tr class="separator:a60e96826aa17262902aede1b301d3aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a48def4f90e1d56d73e79cad088db48"><td class="memItemLeft" align="right" valign="top"><a id="a6a48def4f90e1d56d73e79cad088db48"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>project</b> (self, point)</td></tr>
-<tr class="separator:a6a48def4f90e1d56d73e79cad088db48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3baa1420ab472649b05144ebf14fe0"><td class="memItemLeft" align="right" valign="top"><a id="a2f3baa1420ab472649b05144ebf14fe0"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>project</b> (self, x, y)</td></tr>
+<tr class="separator:a2f3baa1420ab472649b05144ebf14fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a884ed1c3cc2a3b9fa3184afc4b5221f5"><td class="memItemLeft" align="right" valign="top"><a id="a884ed1c3cc2a3b9fa3184afc4b5221f5"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>segments</b> (self)</td></tr>
 <tr class="separator:a884ed1c3cc2a3b9fa3184afc4b5221f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,12 +132,24 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>length</b> (self)</td>
 <tr class="memitem:adcc0d99728c9225d87411016d02eb2c3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeom_1_1geometry_1_1_polyline.html#adcc0d99728c9225d87411016d02eb2c3">linestring_intersection</a> (self, triangle)</td></tr>
 <tr class="memdesc:adcc0d99728c9225d87411016d02eb2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Used in flux calculation) Return the linearString intersection with the triangle  <a href="#adcc0d99728c9225d87411016d02eb2c3">More...</a><br /></td></tr>
 <tr class="separator:adcc0d99728c9225d87411016d02eb2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5370b24de6012332ad770d0039729718"><td class="memItemLeft" align="right" valign="top"><a id="a5370b24de6012332ad770d0039729718"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>apply_transformations</b> (self, transformations)</td></tr>
+<tr class="separator:a5370b24de6012332ad770d0039729718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb7f1aa2b2b319c1fb91f3ef9b829b9"><td class="memItemLeft" align="right" valign="top"><a id="a4eb7f1aa2b2b319c1fb91f3ef9b829b9"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>resample</b> (self, max_len)</td></tr>
+<tr class="separator:a4eb7f1aa2b2b319c1fb91f3ef9b829b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a0a32981fc0c2d267b6f0642ab88a3481"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgeom_1_1geometry_1_1_polyline.html#a0a32981fc0c2d267b6f0642ab88a3481">triangle_difference</a> (triangle, polygon)</td></tr>
 <tr class="memdesc:a0a32981fc0c2d267b6f0642ab88a3481"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Used in volume calculation) Return the polygon or multipolygon in triangle but not in polygon  <a href="#a0a32981fc0c2d267b6f0642ab88a3481">More...</a><br /></td></tr>
 <tr class="separator:a0a32981fc0c2d267b6f0642ab88a3481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a060c54b9c3c9c9bbfbc45b039d7200c6"><td class="memItemLeft" align="right" valign="top"><a id="a060c54b9c3c9c9bbfbc45b039d7200c6"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>m</b></td></tr>
+<tr class="separator:a060c54b9c3c9c9bbfbc45b039d7200c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Custom (open or closed) polyline class. </p>

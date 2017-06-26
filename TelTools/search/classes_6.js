@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['geometryconvertergui',['GeometryConverterGUI',['../classgui_1_1_geometry_converter_g_u_i_1_1_geometry_converter_g_u_i.html',1,'gui::GeometryConverterGUI']]]
+  ['geomfileconverter',['GeomFileConverter',['../classgeom_1_1conversion_1_1_geom_file_converter.html',1,'geom::conversion']]],
+  ['globalconfigdialog',['GlobalConfigDialog',['../classworkflow_1_1_tree_1_1_global_config_dialog.html',1,'workflow::Tree']]]
 ];

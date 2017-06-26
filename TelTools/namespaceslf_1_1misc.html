@@ -78,10 +78,16 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1misc_1_1_arrival_duration_calculator.html">ArrivalDurationCalculator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute arrival/duration of conditions (defined by an expression, a comparator and a threshold) from a .slf input stream.  <a href="classslf_1_1misc_1_1_arrival_duration_calculator.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute arrival/duration of conditions from a .slf input stream.  <a href="classslf_1_1misc_1_1_arrival_duration_calculator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1misc_1_1_condition.html">Condition</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1misc_1_1_project_mesh_calculator.html">ProjectMeshCalculator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1misc_1_1_scalar_max_min_mean_calculator.html">ScalarMaxMinMeanCalculator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute max/min/mean of scalar variables from a .slf input stream.  <a href="classslf_1_1misc_1_1_scalar_max_min_mean_calculator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1misc_1_1_synch_max_calculator.html">SynchMaxCalculator</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1misc_1_1_vector_max_min_mean_calculator.html">VectorMaxMinMeanCalculator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute max/min/mean of vector variables from a .slf input stream.  <a href="classslf_1_1misc_1_1_vector_max_min_mean_calculator.html#details">More...</a><br /></td></tr>
@@ -89,9 +95,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a47084ee5f414cf98ead15c2573f9eaea"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceslf_1_1misc.html#a47084ee5f414cf98ead15c2573f9eaea">scalars_vectors</a> (known_vars, selected_vars)</td></tr>
-<tr class="memdesc:a47084ee5f414cf98ead15c2573f9eaea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate the scalars from vectors, allowing different max/min computations.  <a href="#a47084ee5f414cf98ead15c2573f9eaea">More...</a><br /></td></tr>
-<tr class="separator:a47084ee5f414cf98ead15c2573f9eaea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9caae92d192ec18f4fe6a55a2cb04dc9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceslf_1_1misc.html#a9caae92d192ec18f4fe6a55a2cb04dc9">scalars_vectors</a> (known_vars, selected_vars, us_equation=None)</td></tr>
+<tr class="memdesc:a9caae92d192ec18f4fe6a55a2cb04dc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate the scalars from vectors, allowing different max/min computations.  <a href="#a9caae92d192ec18f4fe6a55a2cb04dc9">More...</a><br /></td></tr>
+<tr class="separator:a9caae92d192ec18f4fe6a55a2cb04dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1587f72437be271e6fba9a17cd1a397a"><td class="memItemLeft" align="right" valign="top"><a id="a1587f72437be271e6fba9a17cd1a397a"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>available_vectors</b> (known_vars)</td></tr>
+<tr class="separator:a1587f72437be271e6fba9a17cd1a397a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cea2c2af50a241795035a912c58bcbe"><td class="memItemLeft" align="right" valign="top"><a id="a2cea2c2af50a241795035a912c58bcbe"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceslf_1_1misc.html#a2cea2c2af50a241795035a912c58bcbe">tighten_expression</a> (expression)</td></tr>
 <tr class="memdesc:a2cea2c2af50a241795035a912c58bcbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the spaces and brackets to get a nice and short expression for display. <br /></td></tr>
@@ -111,6 +120,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="names
 <tr class="memitem:a7f49e8210d6f246d8af6ec841186db7a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceslf_1_1misc.html#a7f49e8210d6f246d8af6ec841186db7a">evaluate_expression</a> (input_stream, time_index, expression)</td></tr>
 <tr class="memdesc:a7f49e8210d6f246d8af6ec841186db7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate a postfix expression on the input stream for a single frame.  <a href="#a7f49e8210d6f246d8af6ec841186db7a">More...</a><br /></td></tr>
 <tr class="separator:a7f49e8210d6f246d8af6ec841186db7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b145db4c696beb11c4e5b3a05444c5b"><td class="memItemLeft" align="right" valign="top"><a id="a8b145db4c696beb11c4e5b3a05444c5b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>vectors_to_shp</b> (slf_name, slf_header, shp_name, vector_couple)</td></tr>
+<tr class="separator:a8b145db4c696beb11c4e5b3a05444c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bbf979ce403e51d75510413e83deb6c"><td class="memItemLeft" align="right" valign="top"><a id="a1bbf979ce403e51d75510413e83deb6c"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>scalar_to_xml</b> (slf_name, slf_header, xml_name, scalar)</td></tr>
+<tr class="separator:a1bbf979ce403e51d75510413e83deb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -129,6 +144,24 @@ list&#160;</td><td class="memItemRight" valign="bottom"><b>OPERATORS</b> = ['+',
 <tr class="memitem:a4f41dd60842d307ad9816d4ab203cbea"><td class="memItemLeft" align="right" valign="top"><a id="a4f41dd60842d307ad9816d4ab203cbea"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>MEAN</b></td></tr>
 <tr class="separator:a4f41dd60842d307ad9816d4ab203cbea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cd8bfd6bc55e134ebcdf3ebc3063ce9"><td class="memItemLeft" align="right" valign="top"><a id="a7cd8bfd6bc55e134ebcdf3ebc3063ce9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ARRIVAL_DURATION</b></td></tr>
+<tr class="separator:a7cd8bfd6bc55e134ebcdf3ebc3063ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae87a072edadc1b9f6d618f62ff927627"><td class="memItemLeft" align="right" valign="top"><a id="ae87a072edadc1b9f6d618f62ff927627"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>PROJECT</b></td></tr>
+<tr class="separator:ae87a072edadc1b9f6d618f62ff927627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1d3f959117d4b4b52ac0cc437850cbd"><td class="memItemLeft" align="right" valign="top"><a id="af1d3f959117d4b4b52ac0cc437850cbd"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>DIFF</b></td></tr>
+<tr class="separator:af1d3f959117d4b4b52ac0cc437850cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d50df6bbbf30336e399e7767e4b51ef"><td class="memItemLeft" align="right" valign="top"><a id="a7d50df6bbbf30336e399e7767e4b51ef"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>REV_DIFF</b></td></tr>
+<tr class="separator:a7d50df6bbbf30336e399e7767e4b51ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7525db5e63b4f21f4c7e8e099c71ae4"><td class="memItemLeft" align="right" valign="top"><a id="ae7525db5e63b4f21f4c7e8e099c71ae4"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>MAX_BETWEEN</b></td></tr>
+<tr class="separator:ae7525db5e63b4f21f4c7e8e099c71ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e341b5491f994dd2b0268c624e7950c"><td class="memItemLeft" align="right" valign="top"><a id="a4e341b5491f994dd2b0268c624e7950c"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>MIN_BETWEEN</b></td></tr>
+<tr class="separator:a4e341b5491f994dd2b0268c624e7950c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Simple computation/evaluation of variable values in .slf. </p>
@@ -178,8 +211,8 @@ list&#160;</td><td class="memItemRight" valign="bottom"><b>OPERATORS</b> = ['+',
 
 </div>
 </div>
-<a id="a47084ee5f414cf98ead15c2573f9eaea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47084ee5f414cf98ead15c2573f9eaea">&#9670;&nbsp;</a></span>scalars_vectors()</h2>
+<a id="a9caae92d192ec18f4fe6a55a2cb04dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9caae92d192ec18f4fe6a55a2cb04dc9">&#9670;&nbsp;</a></span>scalars_vectors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,7 +227,13 @@ list&#160;</td><td class="memItemRight" valign="bottom"><b>OPERATORS</b> = ['+',
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>selected_vars</em>&#160;</td>
+          <td class="paramname"><em>selected_vars</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>us_equation</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
