@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['var_5fid_5fto_5findex',['var_ID_to_index',['../classslf_1_1_serafin_1_1_serafin.html#a28ad3a33ff8df189fd3255ce1dd47aea',1,'slf::Serafin::Serafin']]],
-  ['volume_5fin_5fframe_5fin_5fpolygon',['volume_in_frame_in_polygon',['../classslf_1_1volume_1_1_volume_calculator.html#ab1cbb6b446b06281d19184f4ab334a6a',1,'slf::volume::VolumeCalculator']]]
+  ['write_5fentire_5fframe',['write_entire_frame',['../classslf_1_1_serafin_1_1_write.html#af30d3c353fac951d8ce968377930c9c2',1,'slf::Serafin::Write']]],
+  ['write_5fheader',['write_header',['../classslf_1_1_serafin_1_1_write.html#a4944db4a6d63ead915887e6fbd356d55',1,'slf::Serafin::Write']]]
 ];

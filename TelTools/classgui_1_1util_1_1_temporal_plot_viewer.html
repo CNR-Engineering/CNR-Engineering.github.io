@@ -77,13 +77,15 @@ Inheritance diagram for gui.util.TemporalPlotViewer:</div>
  <div class="center">
   <img src="classgui_1_1util_1_1_temporal_plot_viewer.png" usemap="#gui.util.TemporalPlotViewer_map" alt=""/>
   <map id="gui.util.TemporalPlotViewer_map" name="gui.util.TemporalPlotViewer_map">
-<area href="classgui_1_1util_1_1_plot_viewer.html" alt="gui.util.PlotViewer" shape="rect" coords="652,56,903,80"/>
-<area href="classgui_1_1_compute_flux_g_u_i_1_1_flux_plot_viewer.html" alt="gui.ComputeFluxGUI.FluxPlotViewer" shape="rect" coords="0,168,251,192"/>
-<area href="classgui_1_1_compute_volume_g_u_i_1_1_volume_plot_viewer.html" alt="gui.ComputeVolumeGUI.VolumePlotViewer" shape="rect" coords="261,168,512,192"/>
-<area href="classgui_1_1_points_g_u_i_1_1_image_tab.html" alt="gui.PointsGUI.ImageTab" shape="rect" coords="522,168,773,192"/>
-<area href="classworkflow_1_1nodes__vis_1_1_flux_plot_viewer.html" alt="workflow.nodes_vis.FluxPlotViewer" shape="rect" coords="783,168,1034,192"/>
-<area href="classworkflow_1_1nodes__vis_1_1_point_plot_viewer.html" alt="workflow.nodes_vis.PointPlotViewer" shape="rect" coords="1044,168,1295,192"/>
-<area href="classworkflow_1_1nodes__vis_1_1_volume_plot_viewer.html" alt="workflow.nodes_vis.VolumePlotViewer" shape="rect" coords="1305,168,1556,192"/>
+<area href="classgui_1_1util_1_1_plot_viewer.html" alt="gui.util.PlotViewer" shape="rect" coords="416,56,644,80"/>
+<area href="classgui_1_1util_1_1_flux_plot_viewer.html" alt="gui.util.FluxPlotViewer" shape="rect" coords="0,168,228,192"/>
+<area href="classgui_1_1util_1_1_point_plot_viewer.html" alt="gui.util.PointPlotViewer" shape="rect" coords="238,168,466,192"/>
+<area href="classgui_1_1util_1_1_volume_plot_viewer.html" alt="gui.util.VolumePlotViewer" shape="rect" coords="595,168,823,192"/>
+<area href="classworkflow_1_1util_1_1_vertical_profile_plot_viewer.html" alt="workflow.util.VerticalProfilePlotViewer" shape="rect" coords="833,168,1061,192"/>
+<area href="classgui_1_1_compute_flux_g_u_i_1_1_image_tab.html" alt="gui.ComputeFluxGUI.ImageTab" shape="rect" coords="0,224,228,248"/>
+<area href="classgui_1_1_points_g_u_i_1_1_image_tab.html" alt="gui.PointsGUI.ImageTab" shape="rect" coords="238,224,466,248"/>
+<area href="classgui_1_1_compute_volume_g_u_i_1_1_image_tab.html" alt="gui.ComputeVolumeGUI.ImageTab" shape="rect" coords="476,224,704,248"/>
+<area href="classworkflow_1_1util_1_1_simple_volume_plot_viewer.html" alt="workflow.util.SimpleVolumePlotViewer" shape="rect" coords="714,224,942,248"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -92,9 +94,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d758fc3fcb477c3e36816b76babbcb8"><td class="memItemLeft" align="right" valign="top"><a id="a2d758fc3fcb477c3e36816b76babbcb8"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, column_name='Column')</td></tr>
 <tr class="separator:a2d758fc3fcb477c3e36816b76babbcb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebc339314dd0d949c8c36026c7649a7f"><td class="memItemLeft" align="right" valign="top"><a id="aebc339314dd0d949c8c36026c7649a7f"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>selectColumns</b> (self)</td></tr>
-<tr class="separator:aebc339314dd0d949c8c36026c7649a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9550fd94e130e4d2b8b6848659a02622"><td class="memItemLeft" align="right" valign="top"><a id="a9550fd94e130e4d2b8b6848659a02622"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>selectColumns</b> (self, unique_selection=False)</td></tr>
+<tr class="separator:a9550fd94e130e4d2b8b6848659a02622"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6c4658aa8af0cda9e95b35196c6624e"><td class="memItemLeft" align="right" valign="top"><a id="af6c4658aa8af0cda9e95b35196c6624e"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>editColumns</b> (self)</td></tr>
 <tr class="separator:af6c4658aa8af0cda9e95b35196c6624e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +168,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a62aa2167d69e6c7d648fdfe35c61ec5a"><td class="memItemLeft" align="right" valign="top"><a id="a62aa2167d69e6c7d648fdfe35c61ec5a"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>language</b></td></tr>
 <tr class="separator:a62aa2167d69e6c7d648fdfe35c61ec5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47043a85d3438844a92579ebe40aad25"><td class="memItemLeft" align="right" valign="top"><a id="a47043a85d3438844a92579ebe40aad25"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>time_seconds</b></td></tr>
+<tr class="separator:a47043a85d3438844a92579ebe40aad25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e586db12dfd45e77f046f7976066018"><td class="memItemLeft" align="right" valign="top"><a id="a8e586db12dfd45e77f046f7976066018"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>time</b></td></tr>
 <tr class="separator:a8e586db12dfd45e77f046f7976066018"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,15 +207,21 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a547cad93505317b11a1e316dd09be80b"><td class="memItemLeft" align="right" valign="top"><a id="a547cad93505317b11a1e316dd09be80b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>editColumColorAct</b></td></tr>
 <tr class="separator:a547cad93505317b11a1e316dd09be80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60068e27c6760eb7c7ee012eca7b8e1f"><td class="memItemLeft" align="right" valign="top"><a id="a60068e27c6760eb7c7ee012eca7b8e1f"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>selectColumnsAct_short</b></td></tr>
+<tr class="separator:a60068e27c6760eb7c7ee012eca7b8e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4af0b6489428957daafe3f9976f565ec"><td class="memItemLeft" align="right" valign="top"><a id="a4af0b6489428957daafe3f9976f565ec"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>editColumnNamesAct_short</b></td></tr>
+<tr class="separator:a4af0b6489428957daafe3f9976f565ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1aaf35cd94fa82133c7e410296ab5e"><td class="memItemLeft" align="right" valign="top"><a id="a3b1aaf35cd94fa82133c7e410296ab5e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>editColumColorAct_short</b></td></tr>
+<tr class="separator:a3b1aaf35cd94fa82133c7e410296ab5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35ba640c9ce48111b0d1208d1203e91d"><td class="memItemLeft" align="right" valign="top"><a id="a35ba640c9ce48111b0d1208d1203e91d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>convertTimeAct</b></td></tr>
 <tr class="separator:a35ba640c9ce48111b0d1208d1203e91d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6b1eaaaeb896c428be38b2494bb4c5b"><td class="memItemLeft" align="right" valign="top"><a id="ad6b1eaaaeb896c428be38b2494bb4c5b"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>changeDateAct</b></td></tr>
 <tr class="separator:ad6b1eaaaeb896c428be38b2494bb4c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f3219d02605a31c1d7f2a967f97cfe2"><td class="memItemLeft" align="right" valign="top"><a id="a2f3219d02605a31c1d7f2a967f97cfe2"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>timeMenu</b></td></tr>
-<tr class="separator:a2f3219d02605a31c1d7f2a967f97cfe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea0beb0c8430acbf7075838b56db96e5"><td class="memItemLeft" align="right" valign="top"><a id="aea0beb0c8430acbf7075838b56db96e5"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>current_title</b></td></tr>
 <tr class="separator:aea0beb0c8430acbf7075838b56db96e5"><td class="memSeparator" colspan="2">&#160;</td></tr>

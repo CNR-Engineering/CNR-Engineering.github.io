@@ -149,8 +149,12 @@ Variables</h2></td></tr>
 <p>Optimize four parameters of the transformation from one coordinate system to another (identity along z-axis) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;list&gt;</td><td>from_points: coordinates of points in the first coordinate system </td></tr>
-    <tr><td class="paramname">&lt;list&gt;</td><td>to_points: the coordinates of the same points in the second coordinate system </td></tr>
+    <tr><td class="paramname">from_points</td><td><ul>
+</ul>
+coordinates of points in the first coordinate system </td></tr>
+    <tr><td class="paramname">to_points</td><td><ul>
+</ul>
+the coordinates of the same points in the second coordinate system </td></tr>
   </table>
   </dd>
 </dl>
@@ -187,8 +191,10 @@ Variables</h2></td></tr>
 <p>ad hoc function for checking if an undirected graph is connected </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;list&gt;</td><td>nodes: the list of nodes in the graph </td></tr>
-    <tr><td class="paramname">&lt;iterable&gt;</td><td>edge_list: edges in the graph </td></tr>
+    <tr><td class="paramname">nodes</td><td><ul>
+</ul>
+the list of nodes in the graph </td></tr>
+    <tr><td class="paramname">edge_list</td><td>&lt;iterable&gt;: edges in the graph </td></tr>
   </table>
   </dd>
 </dl>
@@ -215,7 +221,7 @@ Variables</h2></td></tr>
 <p>Load and build the transformation map from configuration file. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;str&gt;</td><td>filename: path to the input file </td></tr>
+    <tr><td class="paramname">filename</td><td>&lt;str&gt;: path to the input file </td></tr>
   </table>
   </dd>
 </dl>
@@ -252,8 +258,12 @@ Variables</h2></td></tr>
 <p>Optimize all six parameters of the transformation from one coordinate system to another. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;list&gt;</td><td>from_points: coordinates of points in the first coordinate system </td></tr>
-    <tr><td class="paramname">&lt;list&gt;</td><td>to_points: the coordinates of the same points in the second coordinate system </td></tr>
+    <tr><td class="paramname">from_points</td><td><ul>
+</ul>
+coordinates of points in the first coordinate system </td></tr>
+    <tr><td class="paramname">to_points</td><td><ul>
+</ul>
+the coordinates of the same points in the second coordinate system </td></tr>
   </table>
   </dd>
 </dl>
@@ -296,9 +306,13 @@ Variables</h2></td></tr>
 <p>Wrapper for optimization methods for transformations from one coordinate system to another. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;list&gt;</td><td>from_points: coordinates of points in the first coordinate system </td></tr>
-    <tr><td class="paramname">&lt;list&gt;</td><td>to_points: the coordinates of the same points in the second coordinate system </td></tr>
-    <tr><td class="paramname">&lt;bool&gt;</td><td>ignore_z: if True, optimize for 4 parameters instead of 6 (identity along z-axis) </td></tr>
+    <tr><td class="paramname">from_points</td><td><ul>
+</ul>
+coordinates of points in the first coordinate system </td></tr>
+    <tr><td class="paramname">to_points</td><td><ul>
+</ul>
+the coordinates of the same points in the second coordinate system </td></tr>
+    <tr><td class="paramname">ignore_z</td><td>&lt;bool&gt;: if True, optimize for 4 parameters instead of 6 (identity along z-axis) </td></tr>
   </table>
   </dd>
 </dl>

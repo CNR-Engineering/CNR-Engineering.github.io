@@ -188,8 +188,8 @@ Additional Inherited Members</h2></td></tr>
 <p>Return the total volume in all triangle-polygon intersections. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;dict&gt;</td><td>triangle_polygon_intersection: All triangle-polygon intersections defined by boundary triangles </td></tr>
-    <tr><td class="paramname">&lt;numpy.1D-array&gt;</td><td>variable: The values of the variable on all nodes </td></tr>
+    <tr><td class="paramname">triangle_polygon_intersection</td><td>&lt;dict&gt;: All triangle-polygon intersections defined by boundary triangles </td></tr>
+    <tr><td class="paramname">variable</td><td>&lt;numpy.1D-array&gt;: The values of the variable on all nodes </td></tr>
   </table>
   </dd>
 </dl>
@@ -226,7 +226,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Return the weight carried by the triangle nodes entirely contained in polygon and info about boundary triangles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;geom.geometry.Polyline&gt;</td><td>polygon: A polygon </td></tr>
+    <tr><td class="paramname">polygon</td><td>&lt;<a class="el" href="classgeom_1_1geometry_1_1_polyline.html" title="Custom (open or closed) polyline class. ">geom.geometry.Polyline</a>&gt;: A polygon </td></tr>
   </table>
   </dd>
 </dl>
@@ -263,7 +263,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Return all triangles entirely contained in polygon and all boundary triangle-polygon intersections. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;geom.geometry.Polyline&gt;</td><td>polygon: A polygon </td></tr>
+    <tr><td class="paramname">polygon</td><td>&lt;<a class="el" href="classgeom_1_1geometry_1_1_polyline.html" title="Custom (open or closed) polyline class. ">geom.geometry.Polyline</a>&gt;: A polygon </td></tr>
   </table>
   </dd>
 </dl>
@@ -300,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Return the weight carried by the triangle nodes entirely contained in polygon. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;geom.geometry.Polyline&gt;</td><td>polygon: A polygon </td></tr>
+    <tr><td class="paramname">polygon</td><td>&lt;<a class="el" href="classgeom_1_1geometry_1_1_polyline.html" title="Custom (open or closed) polyline class. ">geom.geometry.Polyline</a>&gt;: A polygon </td></tr>
   </table>
   </dd>
 </dl>
@@ -351,9 +351,11 @@ Additional Inherited Members</h2></td></tr>
 <p>Return the volume in the half-space z &gt; 0 of the prism with the given base triangle and values. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;list&gt;</td><td>vertices: The coordinates of the three vertices defining the base triangle </td></tr>
-    <tr><td class="paramname">&lt;float&gt;</td><td>area: The area of the base triangle </td></tr>
-    <tr><td class="paramname">&lt;numpy.1D-array&gt;</td><td>values: The values of the variable on the three nodes of the triangle </td></tr>
+    <tr><td class="paramname">vertices</td><td><ul>
+</ul>
+The coordinates of the three vertices defining the base triangle </td></tr>
+    <tr><td class="paramname">area</td><td>&lt;float&gt;: The area of the base triangle </td></tr>
+    <tr><td class="paramname">values</td><td>&lt;numpy.1D-array&gt;: The values of the variable on the three nodes of the triangle </td></tr>
   </table>
   </dd>
 </dl>
@@ -416,10 +418,12 @@ Additional Inherited Members</h2></td></tr>
 <p>Return the volume of the prism in the half-space z &gt; 0 and inside the polygon. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">&lt;shapely.geometry.Polygon&gt;</td><td>polygon: The volume-defining polygon </td></tr>
-    <tr><td class="paramname">&lt;list&gt;</td><td>vertices: The coordinates of the three vertices defining the base triangle </td></tr>
-    <tr><td class="paramname">&lt;float&gt;</td><td>area: The area of the base triangle </td></tr>
-    <tr><td class="paramname">&lt;numpy.1D-array&gt;</td><td>values: The values of the variable on the three nodes of the triangle </td></tr>
+    <tr><td class="paramname">polygon</td><td>&lt;shapely.geometry.Polygon&gt;: The volume-defining polygon </td></tr>
+    <tr><td class="paramname">vertices</td><td><ul>
+</ul>
+The coordinates of the three vertices defining the base triangle </td></tr>
+    <tr><td class="paramname">area</td><td>&lt;float&gt;: The area of the base triangle </td></tr>
+    <tr><td class="paramname">values</td><td>&lt;numpy.1D-array&gt;: The values of the variable on the three nodes of the triangle </td></tr>
   </table>
   </dd>
 </dl>

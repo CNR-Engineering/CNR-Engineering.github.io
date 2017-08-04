@@ -71,6 +71,9 @@ $(function() {
 <div class="title">workflow.nodes_vis.FluxPlotNode Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Temporal plot of fluxes through open lines.  
+ <a href="classworkflow_1_1nodes__vis_1_1_flux_plot_node.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for workflow.nodes_vis.FluxPlotNode:</div>
 <div class="dyncontent">
@@ -87,18 +90,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c95e1d2da4f4d7d096c10e061086b85"><td class="memItemLeft" align="right" valign="top"><a id="a2c95e1d2da4f4d7d096c10e061086b85"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, index)</td></tr>
 <tr class="separator:a2c95e1d2da4f4d7d096c10e061086b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac045c318785d65d9ca54bcf81c401eaf"><td class="memItemLeft" align="right" valign="top"><a id="ac045c318785d65d9ca54bcf81c401eaf"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>save</b> (self)</td></tr>
-<tr class="separator:ac045c318785d65d9ca54bcf81c401eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab69ad7b5334c038f796f1355c5a7588a"><td class="memItemLeft" align="right" valign="top"><a id="ab69ad7b5334c038f796f1355c5a7588a"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>load</b> (self, options)</td></tr>
-<tr class="separator:ab69ad7b5334c038f796f1355c5a7588a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacceb1a083ce4e0148184d7be17df953"><td class="memItemLeft" align="right" valign="top"><a id="aacceb1a083ce4e0148184d7be17df953"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>reconfigure</b> (self)</td></tr>
 <tr class="separator:aacceb1a083ce4e0148184d7be17df953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d8f3479459f08f101edc0ddea0785b9"><td class="memItemLeft" align="right" valign="top"><a id="a9d8f3479459f08f101edc0ddea0785b9"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>configure</b> (self)</td></tr>
-<tr class="separator:a9d8f3479459f08f101edc0ddea0785b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a205924cf6e0e3ecb9db3e4df239bafad"><td class="memItemLeft" align="right" valign="top"><a id="a205924cf6e0e3ecb9db3e4df239bafad"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>configure</b> (self, check=None)</td></tr>
+<tr class="separator:a205924cf6e0e3ecb9db3e4df239bafad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fcdde85442e5af47a1027daa352a095"><td class="memItemLeft" align="right" valign="top"><a id="a1fcdde85442e5af47a1027daa352a095"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (self)</td></tr>
 <tr class="separator:a1fcdde85442e5af47a1027daa352a095"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +122,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> (self)</td><
 <tr class="memitem:acc761eaacbec637178c117ed0d3a4b99 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="acc761eaacbec637178c117ed0d3a4b99"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>set_index</b> (self, index)</td></tr>
 <tr class="separator:acc761eaacbec637178c117ed0d3a4b99 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a819cfaa9f16dd44ec6caaafd9a7cd071"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> (self)</td></tr>
+<tr class="separator:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eaecf2f1331a65f5227b882ae3814ed inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a0eaecf2f1331a65f5227b882ae3814ed"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>add_port</b> (self, port)</td></tr>
 <tr class="separator:a0eaecf2f1331a65f5227b882ae3814ed inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,18 +158,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>itemChange</b> (self, 
 <tr class="memitem:a79c1e240b0a8ed6f269922d0ce472d97 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a79c1e240b0a8ed6f269922d0ce472d97"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>contextMenuEvent</b> (self, event)</td></tr>
 <tr class="separator:a79c1e240b0a8ed6f269922d0ce472d97 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a819cfaa9f16dd44ec6caaafd9a7cd071"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> (self)</td></tr>
-<tr class="separator:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96b6a0e6a47228e3b333df430e9c755a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a96b6a0e6a47228e3b333df430e9c755a"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_option_panel</b> (self)</td></tr>
 <tr class="separator:a96b6a0e6a47228e3b333df430e9c755a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9192fe20165b0bcf5e9963bd8f0cd16a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a9192fe20165b0bcf5e9963bd8f0cd16a"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>ready_to_run</b> (self)</td></tr>
 <tr class="separator:a9192fe20165b0bcf5e9963bd8f0cd16a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17ce1968213136303bf084948ce1b7d8 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a17ce1968213136303bf084948ce1b7d8"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>configure</b> (self)</td></tr>
-<tr class="separator:a17ce1968213136303bf084948ce1b7d8 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfcc500656620fb52245091bfc03d194 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="abfcc500656620fb52245091bfc03d194"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>configure</b> (self, check=None)</td></tr>
+<tr class="separator:abfcc500656620fb52245091bfc03d194 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e82ce35e97f675c178aaf0b094b0b37 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a4e82ce35e97f675c178aaf0b094b0b37"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>reconfigure</b> (self)</td></tr>
 <tr class="separator:a4e82ce35e97f675c178aaf0b094b0b37 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,7 +275,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aac9d14146521e008c0a667bddcac3e53 inherit pub_static_attribs_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top">dictionary&#160;</td><td class="memItemRight" valign="bottom"><b>COLOR</b></td></tr>
 <tr class="separator:aac9d14146521e008c0a667bddcac3e53 inherit pub_static_attribs_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Temporal plot of fluxes through open lines. </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>workflow/nodes_vis.py</li>
 </ul>
 </div><!-- contents -->

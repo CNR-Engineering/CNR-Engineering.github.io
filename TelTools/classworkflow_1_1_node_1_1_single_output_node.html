@@ -77,11 +77,13 @@ Inheritance diagram for workflow.Node.SingleOutputNode:</div>
  <div class="center">
   <img src="classworkflow_1_1_node_1_1_single_output_node.png" usemap="#workflow.Node.SingleOutputNode_map" alt=""/>
   <map id="workflow.Node.SingleOutputNode_map" name="workflow.Node.SingleOutputNode_map">
-<area href="classworkflow_1_1_node_1_1_node.html" alt="workflow.Node.Node" shape="rect" coords="421,56,692,80"/>
-<area href="classworkflow_1_1nodes__io_1_1_load_open_polyline2_d_node.html" alt="workflow.nodes_io.LoadOpenPolyline2DNode" shape="rect" coords="0,168,271,192"/>
-<area href="classworkflow_1_1nodes__io_1_1_load_point2_d_node.html" alt="workflow.nodes_io.LoadPoint2DNode" shape="rect" coords="281,168,552,192"/>
-<area href="classworkflow_1_1nodes__io_1_1_load_polygon2_d_node.html" alt="workflow.nodes_io.LoadPolygon2DNode" shape="rect" coords="562,168,833,192"/>
-<area href="classworkflow_1_1nodes__io_1_1_load_serafin_node.html" alt="workflow.nodes_io.LoadSerafinNode" shape="rect" coords="843,168,1114,192"/>
+<area href="classworkflow_1_1_node_1_1_node.html" alt="workflow.Node.Node" shape="rect" coords="722,56,1001,80"/>
+<area href="classworkflow_1_1nodes__io_1_1_load_open_polyline2_d_node.html" alt="workflow.nodes_io.LoadOpenPolyline2DNode" shape="rect" coords="0,168,279,192"/>
+<area href="classworkflow_1_1nodes__io_1_1_load_point2_d_node.html" alt="workflow.nodes_io.LoadPoint2DNode" shape="rect" coords="289,168,568,192"/>
+<area href="classworkflow_1_1nodes__io_1_1_load_polygon2_d_node.html" alt="workflow.nodes_io.LoadPolygon2DNode" shape="rect" coords="578,168,857,192"/>
+<area href="classworkflow_1_1nodes__io_1_1_load_reference_serafin_node.html" alt="workflow.nodes_io.LoadReferenceSerafinNode" shape="rect" coords="867,168,1146,192"/>
+<area href="classworkflow_1_1nodes__io_1_1_load_serafin2_d_node.html" alt="workflow.nodes_io.LoadSerafin2DNode" shape="rect" coords="1156,168,1435,192"/>
+<area href="classworkflow_1_1nodes__io_1_1_load_serafin3_d_node.html" alt="workflow.nodes_io.LoadSerafin3DNode" shape="rect" coords="1445,168,1724,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -99,9 +101,6 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>run_downward</b> (self
 <tr class="memitem:a633bfdee594ea0f3a3289d8a4c122f71"><td class="memItemLeft" align="right" valign="top"><a id="a633bfdee594ea0f3a3289d8a4c122f71"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>reconfigure</b> (self)</td></tr>
 <tr class="separator:a633bfdee594ea0f3a3289d8a4c122f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f3308779028492bc6eff49dfce2abc8"><td class="memItemLeft" align="right" valign="top"><a id="a3f3308779028492bc6eff49dfce2abc8"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>configure</b> (self)</td></tr>
-<tr class="separator:a3f3308779028492bc6eff49dfce2abc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef473393732ee46ba0f2d25c046abfe0"><td class="memItemLeft" align="right" valign="top"><a id="aef473393732ee46ba0f2d25c046abfe0"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>help</b> (self)</td></tr>
 <tr class="separator:aef473393732ee46ba0f2d25c046abfe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,6 +114,9 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>index</b> (self)</td><
 <tr class="memitem:acc761eaacbec637178c117ed0d3a4b99 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="acc761eaacbec637178c117ed0d3a4b99"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>set_index</b> (self, index)</td></tr>
 <tr class="separator:acc761eaacbec637178c117ed0d3a4b99 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a819cfaa9f16dd44ec6caaafd9a7cd071"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> (self)</td></tr>
+<tr class="separator:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eaecf2f1331a65f5227b882ae3814ed inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a0eaecf2f1331a65f5227b882ae3814ed"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>add_port</b> (self, port)</td></tr>
 <tr class="separator:a0eaecf2f1331a65f5227b882ae3814ed inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,18 +150,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>itemChange</b> (self, 
 <tr class="memitem:a79c1e240b0a8ed6f269922d0ce472d97 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a79c1e240b0a8ed6f269922d0ce472d97"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>contextMenuEvent</b> (self, event)</td></tr>
 <tr class="separator:a79c1e240b0a8ed6f269922d0ce472d97 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a819cfaa9f16dd44ec6caaafd9a7cd071"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>name</b> (self)</td></tr>
-<tr class="separator:a819cfaa9f16dd44ec6caaafd9a7cd071 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96b6a0e6a47228e3b333df430e9c755a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a96b6a0e6a47228e3b333df430e9c755a"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_option_panel</b> (self)</td></tr>
 <tr class="separator:a96b6a0e6a47228e3b333df430e9c755a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9192fe20165b0bcf5e9963bd8f0cd16a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a9192fe20165b0bcf5e9963bd8f0cd16a"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>ready_to_run</b> (self)</td></tr>
 <tr class="separator:a9192fe20165b0bcf5e9963bd8f0cd16a inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17ce1968213136303bf084948ce1b7d8 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a17ce1968213136303bf084948ce1b7d8"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>configure</b> (self)</td></tr>
-<tr class="separator:a17ce1968213136303bf084948ce1b7d8 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfcc500656620fb52245091bfc03d194 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="abfcc500656620fb52245091bfc03d194"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>configure</b> (self, check=None)</td></tr>
+<tr class="separator:abfcc500656620fb52245091bfc03d194 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e82ce35e97f675c178aaf0b094b0b37 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a4e82ce35e97f675c178aaf0b094b0b37"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>reconfigure</b> (self)</td></tr>
 <tr class="separator:a4e82ce35e97f675c178aaf0b094b0b37 inherit pub_methods_classworkflow_1_1_node_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
