@@ -1,15 +1,14 @@
 var searchData=
 [
-  ['fallvelocitymessage',['FallVelocityMessage',['../classgui_1_1util_1_1_fall_velocity_message.html',1,'gui::util']]],
-  ['fileconvertergui',['FileConverterGUI',['../classgui_1_1_geometry_converter_g_u_i_1_1_file_converter_g_u_i.html',1,'gui::GeometryConverterGUI']]],
-  ['fileconverterinputtab',['FileConverterInputTab',['../classgui_1_1_geometry_converter_g_u_i_1_1_file_converter_input_tab.html',1,'gui::GeometryConverterGUI']]],
-  ['fileconverteroutputtab',['FileConverterOutputTab',['../classgui_1_1_geometry_converter_g_u_i_1_1_file_converter_output_tab.html',1,'gui::GeometryConverterGUI']]],
-  ['flux_5fin_5fframe',['flux_in_frame',['../classslf_1_1flux_1_1_flux_calculator.html#aacaf3f165f0671f6ccdcb7a0193e3734',1,'slf::flux::FluxCalculator']]],
-  ['fluxcalculator',['FluxCalculator',['../classslf_1_1flux_1_1_flux_calculator.html',1,'slf::flux']]],
-  ['fluxcalculatorthread',['FluxCalculatorThread',['../classgui_1_1_compute_flux_g_u_i_1_1_flux_calculator_thread.html',1,'gui::ComputeFluxGUI']]],
-  ['fluxplotnode',['FluxPlotNode',['../classworkflow_1_1nodes__vis_1_1_flux_plot_node.html',1,'workflow::nodes_vis']]],
-  ['fluxplotviewer',['FluxPlotViewer',['../classgui_1_1util_1_1_flux_plot_viewer.html',1,'gui::util']]],
-  ['fluxtestcase',['FluxTestCase',['../classtests_1_1test__flux_1_1_flux_test_case.html',1,'tests::test_flux']]],
-  ['four_5fparameters_5foptimization',['four_parameters_optimization',['../namespacegeom_1_1transformation.html#a3e90316e8695d7d19007b12cb73c3195',1,'geom::transformation']]],
-  ['frictionlawmessage',['FrictionLawMessage',['../classgui_1_1util_1_1_friction_law_message.html',1,'gui::util']]]
+  ['editortab',['EditorTab',['../classgui_1_1_calculator_g_u_i_1_1_editor_tab.html',1,'gui::CalculatorGUI']]],
+  ['editsystemdialog',['EditSystemDialog',['../classgui_1_1_config_transformation_1_1_edit_system_dialog.html',1,'gui::ConfigTransformation']]],
+  ['edittransformationdialog',['EditTransformationDialog',['../classgui_1_1_config_transformation_1_1_edit_transformation_dialog.html',1,'gui::ConfigTransformation']]],
+  ['element_5fwise_5fsigned_5fdeviation',['element_wise_signed_deviation',['../classslf_1_1comparison_1_1_reference_mesh.html#a6e1a537012d38c2b098a5f806f08d94e',1,'slf::comparison::ReferenceMesh']]],
+  ['equation',['Equation',['../classslf_1_1variable_1_1variables__utils_1_1_equation.html',1,'slf::variable::variables_utils']]],
+  ['errordistributiontab',['ErrorDistributionTab',['../classgui_1_1_compare_results_g_u_i_1_1_error_distribution_tab.html',1,'gui::CompareResultsGUI']]],
+  ['errorevolutiontab',['ErrorEvolutionTab',['../classgui_1_1_compare_results_g_u_i_1_1_error_evolution_tab.html',1,'gui::CompareResultsGUI']]],
+  ['evaluate_5fexpression',['evaluate_expression',['../namespaceslf_1_1misc.html#a7f49e8210d6f246d8af6ec841186db7a',1,'slf::misc']]],
+  ['expressiondialog',['ExpressionDialog',['../classgui_1_1_calculator_g_u_i_1_1_expression_dialog.html',1,'gui::CalculatorGUI']]],
+  ['extractvariablesgui',['ExtractVariablesGUI',['../classgui_1_1_extract_variables_g_u_i_1_1_extract_variables_g_u_i.html',1,'gui::ExtractVariablesGUI']]],
+  ['extractvariablesthread',['ExtractVariablesThread',['../classgui_1_1_extract_variables_g_u_i_1_1_extract_variables_thread.html',1,'gui::ExtractVariablesGUI']]]
 ];

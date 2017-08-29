@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['plot',['plot',['../classgui_1_1util_1_1_plot_viewer.html#acf10f5d5879e5dfeb859811b3fcff851',1,'gui::util::PlotViewer']]],
-  ['polygon_5fintersection',['polygon_intersection',['../classgeom_1_1geometry_1_1_polyline.html#a4a9aa2c9bc1ab5efadda377d98b91bf1',1,'geom.geometry.Polyline.polygon_intersection()'],['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#a85eee72f2d0492ca4d6bc35af2aabda2',1,'slf.volume.TruncatedTriangularPrisms.polygon_intersection()']]],
-  ['polygon_5fintersection_5fall',['polygon_intersection_all',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#ae5128d6ca18da4d28d235467576fdbff',1,'slf::volume::TruncatedTriangularPrisms']]],
-  ['polygon_5fintersection_5fstrict',['polygon_intersection_strict',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#aaf793f4a48f4e37f9a2282704429a76f',1,'slf::volume::TruncatedTriangularPrisms']]]
+  ['mass_5fflux',['mass_flux',['../classslf_1_1flux_1_1_triangular_vector_field.html#a33aa2dc763c23e8fcd0fcd29e7ea0d2b',1,'slf::flux::TriangularVectorField']]],
+  ['mean_5fabsolute_5fdeviation',['mean_absolute_deviation',['../classslf_1_1comparison_1_1_reference_mesh.html#ae37198c61305909b01c30f34e07e3d06',1,'slf::comparison::ReferenceMesh']]],
+  ['mean_5fsigned_5fdeviation',['mean_signed_deviation',['../classslf_1_1comparison_1_1_reference_mesh.html#a8013e9351bd6715aca41655435a9681f',1,'slf::comparison::ReferenceMesh']]],
+  ['myshapefileheader',['myShapefileHeader',['../classgeom_1_1_shapefile_1_1_my_writer.html#a36ca63b3a26036062ce3e037bd7827ac',1,'geom::Shapefile::MyWriter']]],
+  ['myshpfilelength',['myshpFileLength',['../classgeom_1_1_shapefile_1_1_my_writer.html#acf6c0ce15ccf551f01c108ce64bb365b',1,'geom::Shapefile::MyWriter']]],
+  ['myshprecords',['myshpRecords',['../classgeom_1_1_shapefile_1_1_my_writer.html#a02d75e257489c9c68aa1c6778ca9ada7',1,'geom::Shapefile::MyWriter']]]
 ];

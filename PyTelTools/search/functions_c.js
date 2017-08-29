@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['read_5fheader',['read_header',['../classslf_1_1_serafin_1_1_serafin.html#ab016b5f94557cd81bfb777817c3de94e',1,'slf::Serafin::Serafin']]],
-  ['read_5fvalues_5fin_5fframe',['read_values_in_frame',['../classslf_1_1volume_1_1_volume_calculator.html#a9db792dca744a8aadb270dc7b20f9295',1,'slf::volume::VolumeCalculator']]],
-  ['read_5fvar_5fin_5fframe',['read_var_in_frame',['../classslf_1_1_serafin_1_1_read.html#aa907369ad4044e6ea920107ae94fa430',1,'slf::Serafin::Read']]],
-  ['root_5fmean_5fsquare_5fdeviation',['root_mean_square_deviation',['../classslf_1_1comparison_1_1_reference_mesh.html#a0f2340b8a59a40be04a63543c0dfb343',1,'slf::comparison::ReferenceMesh']]],
-  ['run',['run',['../classslf_1_1flux_1_1_flux_calculator.html#a13c13b229476240fe3da35b853425c94',1,'slf.flux.FluxCalculator.run()'],['../classslf_1_1volume_1_1_volume_calculator.html#a3ace9b7e681b105dbc8f3289628f089e',1,'slf.volume.VolumeCalculator.run()']]]
+  ['plot',['plot',['../classgui_1_1util_1_1_plot_viewer.html#acf10f5d5879e5dfeb859811b3fcff851',1,'gui::util::PlotViewer']]],
+  ['polygon_5fintersection',['polygon_intersection',['../classgeom_1_1geometry_1_1_polyline.html#a4a9aa2c9bc1ab5efadda377d98b91bf1',1,'geom.geometry.Polyline.polygon_intersection()'],['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#a85eee72f2d0492ca4d6bc35af2aabda2',1,'slf.volume.TruncatedTriangularPrisms.polygon_intersection()']]],
+  ['polygon_5fintersection_5fall',['polygon_intersection_all',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#ae5128d6ca18da4d28d235467576fdbff',1,'slf::volume::TruncatedTriangularPrisms']]],
+  ['polygon_5fintersection_5fstrict',['polygon_intersection_strict',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#aaf793f4a48f4e37f9a2282704429a76f',1,'slf::volume::TruncatedTriangularPrisms']]]
 ];

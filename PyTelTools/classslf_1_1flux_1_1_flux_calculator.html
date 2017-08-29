@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TelTools: slf.flux.FluxCalculator Class Reference</title>
+<title>PyTelTools: slf.flux.FluxCalculator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TelTools
+   <div id="projectname">PyTelTools
    </div>
-   <div id="projectbrief">Pre/post-processing tools for openTelemac</div>
+   <div id="projectbrief">Python pre/post-processing tools for openTelemac</div>
   </td>
  </tr>
  </tbody>
@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Compute flux across sections (integral along lines) from a .slf input stream.  
+<p>Compute flux across sections (integral along lines) from a <a class="el" href="namespaceslf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> input stream.  
  <a href="classslf_1_1flux_1_1_flux_calculator.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -91,13 +91,13 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:aacaf3f165f0671f6ccdcb7a0193e3734"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1flux_1_1_flux_calculator.html#aacaf3f165f0671f6ccdcb7a0193e3734">flux_in_frame</a> (self, intersections, values)</td></tr>
 <tr class="memdesc:aacaf3f165f0671f6ccdcb7a0193e3734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do the flux computation in a single frame, depending on the flux type.  <a href="#aacaf3f165f0671f6ccdcb7a0193e3734">More...</a><br /></td></tr>
 <tr class="separator:aacaf3f165f0671f6ccdcb7a0193e3734"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13c13b229476240fe3da35b853425c94"><td class="memItemLeft" align="right" valign="top"><a id="a13c13b229476240fe3da35b853425c94"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1flux_1_1_flux_calculator.html#a13c13b229476240fe3da35b853425c94">run</a> (self)</td></tr>
-<tr class="memdesc:a13c13b229476240fe3da35b853425c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate the major part of the computation, allowing a GUI override. <br /></td></tr>
-<tr class="separator:a13c13b229476240fe3da35b853425c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a670e64b96a49b96b6308e0bc8e0164"><td class="memItemLeft" align="right" valign="top"><a id="a0a670e64b96a49b96b6308e0bc8e0164"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>write_csv</b> (self, result, output_stream, separator=CSV_SEPARATOR)</td></tr>
-<tr class="separator:a0a670e64b96a49b96b6308e0bc8e0164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90a9874d02fc027da77b99791f4e38e"><td class="memItemLeft" align="right" valign="top"><a id="aa90a9874d02fc027da77b99791f4e38e"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1flux_1_1_flux_calculator.html#aa90a9874d02fc027da77b99791f4e38e">run</a> (self, format_string='{0:.6f}')</td></tr>
+<tr class="memdesc:aa90a9874d02fc027da77b99791f4e38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate the major part of the computation, allowing a GUI override. <br /></td></tr>
+<tr class="separator:aa90a9874d02fc027da77b99791f4e38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec646a7c2d73066b31e0208ac66e86d1"><td class="memItemLeft" align="right" valign="top"><a id="aec646a7c2d73066b31e0208ac66e86d1"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_csv</b> (self, result, output_stream, separator)</td></tr>
+<tr class="separator:aec646a7c2d73066b31e0208ac66e86d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -145,7 +145,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:aaf9e3668dc813b5642791e095819a387"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Compute flux across sections (integral along lines) from a .slf input stream. </p>
+<div class="textblock"><p>Compute flux across sections (integral along lines) from a <a class="el" href="namespaceslf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> input stream. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aacaf3f165f0671f6ccdcb7a0193e3734"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aacaf3f165f0671f6ccdcb7a0193e3734">&#9670;&nbsp;</a></span>flux_in_frame()</h2>

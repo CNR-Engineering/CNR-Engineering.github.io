@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['mass_5fflux',['mass_flux',['../classslf_1_1flux_1_1_triangular_vector_field.html#a33aa2dc763c23e8fcd0fcd29e7ea0d2b',1,'slf::flux::TriangularVectorField']]],
-  ['mean_5fabsolute_5fdeviation',['mean_absolute_deviation',['../classslf_1_1comparison_1_1_reference_mesh.html#ae37198c61305909b01c30f34e07e3d06',1,'slf::comparison::ReferenceMesh']]],
-  ['mean_5fsigned_5fdeviation',['mean_signed_deviation',['../classslf_1_1comparison_1_1_reference_mesh.html#a8013e9351bd6715aca41655435a9681f',1,'slf::comparison::ReferenceMesh']]],
-  ['myshapefileheader',['myShapefileHeader',['../classgeom_1_1_shapefile_1_1_my_writer.html#a36ca63b3a26036062ce3e037bd7827ac',1,'geom::Shapefile::MyWriter']]],
-  ['myshpfilelength',['myshpFileLength',['../classgeom_1_1_shapefile_1_1_my_writer.html#acf6c0ce15ccf551f01c108ce64bb365b',1,'geom::Shapefile::MyWriter']]],
-  ['myshprecords',['myshpRecords',['../classgeom_1_1_shapefile_1_1_my_writer.html#a02d75e257489c9c68aa1c6778ca9ada7',1,'geom::Shapefile::MyWriter']]]
+  ['line_5fdouble_5fintegral',['line_double_integral',['../classslf_1_1flux_1_1_triangular_vector_field.html#ad7aeccbe8066243715f7d5234115a222',1,'slf::flux::TriangularVectorField']]],
+  ['line_5fflux',['line_flux',['../classslf_1_1flux_1_1_triangular_vector_field.html#a7e1eedb8b88e4f126b49b929c2e49ef2',1,'slf::flux::TriangularVectorField']]],
+  ['line_5fintegral',['line_integral',['../classslf_1_1flux_1_1_triangular_vector_field.html#ad937acb286b8b05f4451d9bad4df9c0f',1,'slf::flux::TriangularVectorField']]],
+  ['linestring_5fintersection',['linestring_intersection',['../classgeom_1_1geometry_1_1_polyline.html#adcc0d99728c9225d87411016d02eb2c3',1,'geom::geometry::Polyline']]],
+  ['load_5ftransformation_5fmap',['load_transformation_map',['../namespacegeom_1_1transformation.html#a928cb1ff38e474f1b46b064b3a1ec3a3',1,'geom::transformation']]]
 ];

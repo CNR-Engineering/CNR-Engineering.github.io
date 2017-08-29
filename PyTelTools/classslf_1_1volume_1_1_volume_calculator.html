@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TelTools: slf.volume.VolumeCalculator Class Reference</title>
+<title>PyTelTools: slf.volume.VolumeCalculator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TelTools
+   <div id="projectname">PyTelTools
    </div>
-   <div id="projectbrief">Pre/post-processing tools for openTelemac</div>
+   <div id="projectbrief">Python pre/post-processing tools for openTelemac</div>
   </td>
  </tr>
  </tbody>
@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Compute volumes inside polygons from a .slf input stream.  
+<p>Compute volumes inside polygons from a <a class="el" href="namespaceslf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> input stream.  
  <a href="classslf_1_1volume_1_1_volume_calculator.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -94,16 +94,16 @@ def&#160;</td><td class="memItemRight" valign="bottom"><b>construct_triangles</b
 def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1volume_1_1_volume_calculator.html#a9db792dca744a8aadb270dc7b20f9295">read_values_in_frame</a> (self, time_index)</td></tr>
 <tr class="memdesc:a9db792dca744a8aadb270dc7b20f9295"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read variable values in a single frame, depending on the first/second variable choice. <br /></td></tr>
 <tr class="separator:a9db792dca744a8aadb270dc7b20f9295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ace9b7e681b105dbc8f3289628f089e"><td class="memItemLeft" align="right" valign="top"><a id="a3ace9b7e681b105dbc8f3289628f089e"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1volume_1_1_volume_calculator.html#a3ace9b7e681b105dbc8f3289628f089e">run</a> (self)</td></tr>
-<tr class="memdesc:a3ace9b7e681b105dbc8f3289628f089e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate the major part of the computation, allowing a GUI override. <br /></td></tr>
-<tr class="separator:a3ace9b7e681b105dbc8f3289628f089e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c18e93d4ff605d6c2172b745b80b1c"><td class="memItemLeft" align="right" valign="top"><a id="ab8c18e93d4ff605d6c2172b745b80b1c"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classslf_1_1volume_1_1_volume_calculator.html#ab8c18e93d4ff605d6c2172b745b80b1c">run</a> (self, format_string='{0:.6f}')</td></tr>
+<tr class="memdesc:ab8c18e93d4ff605d6c2172b745b80b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate the major part of the computation, allowing a GUI override. <br /></td></tr>
+<tr class="separator:ab8c18e93d4ff605d6c2172b745b80b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a243af0f3ecd5caaadfc4ccbe24881930"><td class="memItemLeft" align="right" valign="top"><a id="a243af0f3ecd5caaadfc4ccbe24881930"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>get_csv_header</b> (self)</td></tr>
 <tr class="separator:a243af0f3ecd5caaadfc4ccbe24881930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad785ef3b6a2872a81254d6b30f377799"><td class="memItemLeft" align="right" valign="top"><a id="ad785ef3b6a2872a81254d6b30f377799"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>write_csv</b> (self, result, output_stream, separator=CSV_SEPARATOR)</td></tr>
-<tr class="separator:ad785ef3b6a2872a81254d6b30f377799"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b5a702191232d8bd5ff0c422698d60"><td class="memItemLeft" align="right" valign="top"><a id="af1b5a702191232d8bd5ff0c422698d60"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>write_csv</b> (self, result, output_stream, separator)</td></tr>
+<tr class="separator:af1b5a702191232d8bd5ff0c422698d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -154,7 +154,7 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>INIT_VALUE</b> = '+
 <tr class="separator:aed6605839716d1e86311df053101539e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Compute volumes inside polygons from a .slf input stream. </p>
+<div class="textblock"><p>Compute volumes inside polygons from a <a class="el" href="namespaceslf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> input stream. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afd83a58eea3e80c6115cf9b990bdd57f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd83a58eea3e80c6115cf9b990bdd57f">&#9670;&nbsp;</a></span>construct_weights()</h2>

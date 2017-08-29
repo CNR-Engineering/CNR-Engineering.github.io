@@ -1,5 +1,11 @@
 var searchData=
 [
-  ['var_5fid_5fto_5findex',['var_ID_to_index',['../classslf_1_1_serafin_1_1_serafin.html#a28ad3a33ff8df189fd3255ce1dd47aea',1,'slf::Serafin::Serafin']]],
-  ['volume_5fin_5fframe_5fin_5fpolygon',['volume_in_frame_in_polygon',['../classslf_1_1volume_1_1_volume_calculator.html#ab1cbb6b446b06281d19184f4ab334a6a',1,'slf::volume::VolumeCalculator']]]
+  ['saveshp',['saveShp',['../classgeom_1_1_shapefile_1_1_my_writer.html#a1385d146fd77868815470deb588cb4e1',1,'geom::Shapefile::MyWriter']]],
+  ['scalars_5fvectors',['scalars_vectors',['../namespaceslf_1_1misc.html#a9caae92d192ec18f4fe6a55a2cb04dc9',1,'slf::misc']]],
+  ['section_5fintersection',['section_intersection',['../classslf_1_1flux_1_1_triangular_vector_field.html#a2b1159ac86f07b1e8dea754f8f00af9c',1,'slf::flux::TriangularVectorField']]],
+  ['six_5fparameters_5foptimization',['six_parameters_optimization',['../namespacegeom_1_1transformation.html#a30d9318f5d07b1103eb27713cd8c21a5',1,'geom::transformation']]],
+  ['slf_5fto_5fvtk',['slf_to_vtk',['../namespaceslf_1_1misc.html#a7014a4ad71fdba49f2b2c93d9ee97fa2',1,'slf::misc']]],
+  ['slf_5fto_5fxml',['slf_to_xml',['../namespaceslf_1_1misc.html#a85b94eb5109b8274d3fe1394ce1d60f0',1,'slf::misc']]],
+  ['superior_5fprism_5fvolume',['superior_prism_volume',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#ab9daa82d99ccf06d70de74c5e53b0e3b',1,'slf::volume::TruncatedTriangularPrisms']]],
+  ['superior_5fprism_5fvolume_5fin_5fintersection',['superior_prism_volume_in_intersection',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#ab2b7c1b92e69f1a660b86d4638b5c67e',1,'slf::volume::TruncatedTriangularPrisms']]]
 ];

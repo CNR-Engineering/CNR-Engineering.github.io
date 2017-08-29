@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['boundary_5fvolume_5fin_5fpolygon',['boundary_volume_in_polygon',['../classslf_1_1volume_1_1_truncated_triangular_prisms.html#a609526884af4ea647b5f9cfcc952393c',1,'slf::volume::TruncatedTriangularPrisms']]],
-  ['build_5fvariables',['build_variables',['../namespaceslf_1_1variables__utils.html#ac434dddfe31d465f0fd047705f971a9f',1,'slf::variables_utils']]]
+  ['add_5fpolygon',['add_polygon',['../classslf_1_1comparison_1_1_reference_mesh.html#a131f230ce61fe3166ce78ea0759b587a',1,'slf::comparison::ReferenceMesh']]],
+  ['area_5fflux',['area_flux',['../classslf_1_1flux_1_1_triangular_vector_field.html#a71df3f6fb0481d62ed7ef836ff1bbebd',1,'slf::flux::TriangularVectorField']]]
 ];

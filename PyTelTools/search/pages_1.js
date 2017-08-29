@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['teltools',['TelTools',['../index.html',1,'']]]
+  ['pyteltools',['PyTelTools',['../index.html',1,'']]]
 ];

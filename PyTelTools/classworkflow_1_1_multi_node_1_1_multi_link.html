@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>TelTools: workflow.MultiNode.MultiLink Class Reference</title>
+<title>PyTelTools: workflow.MultiNode.MultiLink Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,9 +21,9 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">TelTools
+   <div id="projectname">PyTelTools
    </div>
-   <div id="projectbrief">Pre/post-processing tools for openTelemac</div>
+   <div id="projectbrief">Python pre/post-processing tools for openTelemac</div>
   </td>
  </tr>
  </tbody>
@@ -71,6 +71,9 @@ $(function() {
 <div class="title">workflow.MultiNode.MultiLink Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Link between MultiPorts.  
+ <a href="classworkflow_1_1_multi_node_1_1_multi_link.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for workflow.MultiNode.MultiLink:</div>
 <div class="dyncontent">
@@ -82,8 +85,8 @@ Inheritance diagram for workflow.MultiNode.MultiLink:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad4741344ab5cbf0036ef7f5aedbc4d5e"><td class="memItemLeft" align="right" valign="top"><a id="ad4741344ab5cbf0036ef7f5aedbc4d5e"></a>
-def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b> (self, from_port, to_port)</td></tr>
+<tr class="memitem:ad4741344ab5cbf0036ef7f5aedbc4d5e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classworkflow_1_1_multi_node_1_1_multi_link.html#ad4741344ab5cbf0036ef7f5aedbc4d5e">__init__</a> (self, from_port, to_port)</td></tr>
+<tr class="memdesc:ad4741344ab5cbf0036ef7f5aedbc4d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Link between two MultiPorts (of different MultiNodes)  <a href="#ad4741344ab5cbf0036ef7f5aedbc4d5e">More...</a><br /></td></tr>
 <tr class="separator:ad4741344ab5cbf0036ef7f5aedbc4d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79ecf383cc896403cf2410a570a0e0ac"><td class="memItemLeft" align="right" valign="top"><a id="a79ecf383cc896403cf2410a570a0e0ac"></a>
 def&#160;</td><td class="memItemRight" valign="bottom"><b>save</b> (self)</td></tr>
@@ -140,6 +143,52 @@ Public Attributes</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>brush</b></td></tr>
 <tr class="separator:a6298d9fe2531fc2f6e5c48eb780ea31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Link between MultiPorts. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad4741344ab5cbf0036ef7f5aedbc4d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4741344ab5cbf0036ef7f5aedbc4d5e">&#9670;&nbsp;</a></span>__init__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def workflow.MultiNode.MultiLink.__init__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>from_port</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>to_port</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Link between two MultiPorts (of different MultiNodes) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">from_port</td><td>&lt;MultiOutputPort&gt;: origin port </td></tr>
+    <tr><td class="paramname">to_port</td><td>&lt;MultiInputPort&gt;: destination port </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>workflow/MultiNode.py</li>
 </ul>

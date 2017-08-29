@@ -13,7 +13,7 @@ var searchData=
   ['pointplotnode',['PointPlotNode',['../classworkflow_1_1nodes__vis_1_1_point_plot_node.html',1,'workflow::nodes_vis']]],
   ['pointplotviewer',['PointPlotViewer',['../classgui_1_1util_1_1_point_plot_viewer.html',1,'gui::util']]],
   ['pointsgui',['PointsGUI',['../classgui_1_1_points_g_u_i_1_1_points_g_u_i.html',1,'gui::PointsGUI']]],
-  ['polygonalmask',['PolygonalMask',['../classslf_1_1misc_1_1_polygonal_mask.html',1,'slf::misc']]],
+  ['polygonalmask',['PolygonalMask',['../classslf_1_1expression_1_1expression_1_1_polygonal_mask.html',1,'slf::expression::expression']]],
   ['polygonmapcanvas',['PolygonMapCanvas',['../classgui_1_1util_1_1_polygon_map_canvas.html',1,'gui::util']]],
   ['polyline',['Polyline',['../classgeom_1_1geometry_1_1_polyline.html',1,'geom::geometry']]],
   ['polylinedata',['PolylineData',['../classslf_1_1datatypes_1_1_polyline_data.html',1,'slf::datatypes']]],

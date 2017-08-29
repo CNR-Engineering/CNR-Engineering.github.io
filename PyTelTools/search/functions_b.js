@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quadratic_5fvolume',['quadratic_volume',['../classslf_1_1comparison_1_1_reference_mesh.html#a08c631bd48ed4ac580a66d88a8cf8721',1,'slf::comparison::ReferenceMesh']]]
+  ['new_5fvariables_5ffrom_5fus',['new_variables_from_US',['../namespaceslf_1_1variable_1_1variables__2d.html#a52a356a02c78552425fe258ac95978d4',1,'slf::variable::variables_2d']]]
 ];
