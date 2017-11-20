@@ -69,11 +69,18 @@ $(function() {
 <li>linux line breaking</li>
 <li>indent: 4 spaces</li>
 <li>comment language: English</li>
+<li>shebang: <code>#!/usr/bin/env python</code></li>
 </ul>
 <h2>Module imports</h2>
-<p>Avoid any import with * except for PyQt5: </p><div class="fragment"><div class="line">from PyQt5.QtCore import *</div><div class="line">from PyQt5.QtGui import *</div><div class="line">from PyQt5.QtWidgets import *</div></div><!-- fragment --><h3>Order</h3>
-<p>Sort import lines and lists by alphabetic order.</p>
-<p>### Common abbreviations </p><div class="fragment"><div class="line">import numpy as np</div><div class="line">import slf.misc as operations</div></div><!-- fragment --><h2>Naming conventions</h2>
+<p>Avoid any import with * except for PyQt5: </p><div class="fragment"><div class="line">from PyQt5.QtCore import *</div><div class="line">from PyQt5.QtGui import *</div><div class="line">from PyQt5.QtWidgets import *</div></div><!-- fragment --><h3>Group and order imports</h3>
+<p>Three groups for line imports are separated by an empty line:</p><ol type="1">
+<li>internal Python imports</li>
+<li>imports from PyTelTools</li>
+<li>relative imports (within a PyTelTools module)</li>
+</ol>
+<p>Imports are sorted by alphabetic order.</p>
+<p>Example: </p><div class="fragment"><div class="line">import sys</div><div class="line">from time import time</div><div class="line"></div><div class="line">from pyteltools.conf import settings</div><div class="line">from pyteltools.slf import Serafin</div><div class="line"></div><div class="line">from .Node import Box, Link, Port</div><div class="line">from .util import logger</div></div><!-- fragment --><h3>Common abbreviations</h3>
+<p>Some common import renamings: </p><div class="fragment"><div class="line">import numpy as np</div><div class="line">import pyteltools.slf.misc as operations</div></div><!-- fragment --><h2>Naming conventions</h2>
 <ul>
 <li>variables, functions, methods: lowercase_with_underscores</li>
 <li>class: CapWords</li>
@@ -86,13 +93,20 @@ $(function() {
 </ul>
 <h2>Logging</h2>
 <p>Use with following logging levels (with corresponding numeric value) :</p><ul>
-<li>CRITICAL (40)</li>
-<li>WARNING (30)</li>
-<li>INFO (20)</li>
-<li>DEBUG (10)</li>
+<li><code>CRITICAL</code> (40)</li>
+<li><code>WARNING</code> (30)</li>
+<li><code>INFO</code> (20)</li>
+<li><code>DEBUG</code> (10)</li>
+</ul>
+<h2>CLI exiting code</h2>
+<ul>
+<li>0 = successful termination</li>
+<li>1 = different kind of errors/inconsistencies: in input/output, error during computation, ...</li>
+<li>2 = error or inconsistencies with command-line arguments</li>
+<li>3 = file error (parser, writer)</li>
 </ul>
 <h2>Code documentation</h2>
-<p>Developper documentation is generated with doyxgen and provided on <a href="https://cnr-engineering.github.io/PyTelTools">https://cnr-engineering.github.io/PyTelTools</a>.</p>
+<p>Developer documentation is generated with doyxgen and provided on <a href="https://cnr-engineering.github.io/PyTelTools">https://cnr-engineering.github.io/PyTelTools</a>.</p>
 <p>Doxygen will extract preformatted comments following <a href="https://www.stack.nl/~dimitri/doxygen/manual/docblocks.html#pythonblocks">some conventions</a>. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->

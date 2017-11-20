@@ -63,19 +63,63 @@ $(function() {
 <div class="title">PyTelTools </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Python Telemac Tools</p>
+<div class="textblock"><div class="image">
+<img src="https://github.com/CNR-Engineering/PyTelTools_media/blob/master/icons/PyTelTools_with_text.png" style="float: right" width="256px"/>
+</div>
+<ul>
+<li><a href="#documentations">Documentations</a></li>
+<li><a href="#installation-and-requirements">Installation and requirements</a></li>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#configure">Configure</a></li>
+</ul>
+<h2>Documentations</h2>
 <ul>
 <li><a href="https://github.com/CNR-Engineering/PyTelTools/wiki">User documentation</a></li>
-<li><a href="https://cnr-engineering.github.io/PyTelTools">Developper documentation</a> (<a href="https://github.com/CNR-Engineering/CNR-Engineering.github.io">repository with static files</a>)</li>
+<li><a href="https://cnr-engineering.github.io/PyTelTools">Developer documentation</a> (<a href="https://github.com/CNR-Engineering/CNR-Engineering.github.io">repository with static files</a>)</li>
 </ul>
 <h2>Installation and requirements</h2>
-<p>It relies on Python3 and requires packages which are listed in <a href="https://github.com/CNR-Engineering/PyTelTools/blob/master/requirements.txt">requirements.txt</a>.</p>
-<p>Packages installation can be done with pip: </p><div class="fragment"><div class="line">$ pip install -r requirements.txt</div></div><!-- fragment --><h3>Virtualenv</h3>
-<p>The use of isolated Python environments is possible through virtualenv: </p><div class="fragment"><div class="line">$ virtualenv venv --python=python3</div><div class="line">$ source venv/bin/activate</div><div class="line">(venv) $ pip install -r requirements.txt --upgrade</div></div><!-- fragment --><h2>Usage</h2>
-<p>### Open interface </p><div class="fragment"><div class="line">$ python main_interface.py</div><div class="line">$ python outil_carto.py</div></div><!-- fragment --><h3>Use command line for workflow</h3>
-<p><b>Load</b> a workflow project file in the <b>GUI</b> (in mono tab): </p><div class="fragment"><div class="line">$ python workflow/interface.py -i path_to_workflow_project_file.txt</div></div><!-- fragment --><p><b>Load</b> and <b>run</b> a workflow project from the <b>command line</b>: </p><div class="fragment"><div class="line">$ python workflow/mono_gui.py -i path_to_workflow_project_file.txt</div><div class="line">$ python workflow/multi_gui.py -i path_to_workflow_project_file.txt</div></div><!-- fragment --><p>The argument <code>-h</code> provides a <b>help</b> message for the corresponding script and specify its <b>usage</b>. Output <b>verbosity</b> can be increased (debug mode) with <code>-v</code> argument.</p>
+<p>PyTelTools relies on <b>Python3</b> and requires packages which are listed in <a href="https://github.com/CNR-Engineering/PyTelTools/blob/master/requirements.txt">requirements.txt</a>.</p>
+<blockquote class="doxtable">
+<p>:warning: If you have multiple versions of Python installed, beware of using the right <b>python</b> or <b>pip</b> executable (or consider using a <a href="https://virtualenv.pypa.io/en/stable/">virtual environnement</a> if you are on Linux), which has to be a Python 3 version. </p>
+</blockquote>
+<blockquote class="doxtable">
+<p>:information_source: For <b>Windows</b> users who face problems with the installation of these packages (especially PyQt5, scipy or numpy), consider using a Python version with a full set of <b>pre-installed scientific packages</b>, such as <a href="http://winpython.github.io">WinPython</a> or <a href="https://conda.io">Conda</a>. All the major packages will be already installed, therefore it should facilitate the installation.</p>
+<p>It is even possible to download a WinPython portable installation for Python 3.6 (64 bits) with all the dependencies required by PyTelTools (and many more packages) already installed <a href="https://drive.google.com/file/d/1IihdjBCefjq8EoTOnY9WBjDwLK5-vLvc/view?usp=sharing">here (~500 MB)</a>. </p>
+</blockquote>
+<p>PyTelTools can be installed as a Python module (A) or an external program (B). The recommended installation is within Python (A) as it becomes fully integrated with Python and more easier to install, upgrade and use.</p>
+<h3>A) Installation as Python module</h3>
+<p>If you want to use a <a href="https://virtualenv.pypa.io/en/stable/">virtual environnement</a> do the following: </p><div class="fragment"><div class="line">$ virtualenv venv --python=python3</div><div class="line">$ source venv/bin/activate</div></div><!-- fragment --><p> This step to create and use virtualenv is optional and can also be done trough <code>make venv</code>.</p>
+<p>PyTelTools can be installed directly from its repository with <b>pip</b>: </p><div class="fragment"><div class="line"># user install</div><div class="line">pip install -e git://github.com/CNR-Engineering/PyTelTools.git#egg=pyteltools --user</div><div class="line"># default install (eventually in a virtualenv or needs to be root)</div><div class="line">pip install -e git://github.com/CNR-Engineering/PyTelTools.git#egg=pyteltools</div></div><!-- fragment --><blockquote class="doxtable">
+<p>:information_source: If you do not have a <code>git</code> client (which might be the case if you are using Windows), you can try to install it with: </p><div class="fragment"><div class="line">pip install https://github.com/CNR-Engineering/PyTelTools/zipball/master</div></div><!-- fragment --> </blockquote>
+<h4>Upgrade</h4>
+<p>To upgrade PyTelTools, simply use <b>pip</b>: </p><div class="fragment"><div class="line">$ pip install PyTelTools --upgrade</div></div><!-- fragment --><h3>B) PyTelTools as an external program</h3>
+<h4>B.1) Get the source code</h4>
+<p>Clone source code repository in a folder <code>PyTelTools</code>. </p><div class="fragment"><div class="line">$ git clone https://github.com/CNR-Engineering/PyTelTools.git</div></div><!-- fragment --><blockquote class="doxtable">
+<p>:information_source: If you do not have a <code>git</code> client, simply unzip the <a href="https://github.com/CNR-Engineering/PyTelTools/archive/master.zip">source code repository</a>. </p>
+</blockquote>
+<p>For the next steps, the source code is expected to be in a folder named <code>PyTelTools</code> (containing this <code>README.md</code> file).</p>
+<h4>B.2) Install dependencies</h4>
+<p>If you want to use a <a href="https://virtualenv.pypa.io/en/stable/">virtual environnement</a> do the following: </p><div class="fragment"><div class="line">$ virtualenv venv --python=python3</div><div class="line">$ source venv/bin/activate</div></div><!-- fragment --><p> This step to create and use virtualenv is optional and can also be done trough <code>make venv</code>.</p>
+<p>Packages installation can be done directly with <b>pip</b>: </p><div class="fragment"><div class="line">$ pip install -r requirements.txt</div></div><!-- fragment --><h2>Usage</h2>
+<p>Depending on the followed installation procedure, see the correspond paragraph.</p>
+<h3>A) Python module</h3>
+<h4>A.1) Inside a Python interpreter</h4>
+<p>If PyTelTools is installed (the module is named <code>pyteltools</code>), it can be imported with: </p><div class="fragment"><div class="line">$ python</div><div class="line">&gt;&gt;&gt; import pyteltools</div><div class="line">&gt;&gt;&gt;</div></div><!-- fragment --><p>Then all the methods and classes are accessible (such as <code><a class="el" href="namespacepyteltools_1_1slf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">pyteltools.slf.Serafin</a></code>).</p>
+<p>It can be usefull to define your own script adapted to your needs and still relying on PyTelTools core.</p>
+<h4>A.2) Call scripts</h4>
+<div class="fragment"><div class="line"># Classic or Workflow interface (GUI)</div><div class="line">$ pyteltools_gui.py</div><div class="line"># Command line script (CLI) can be called directly from any directory</div><div class="line">$ slf_base.py -h</div></div><!-- fragment --><p>Beware, that the Python executable is the one you configured (a Python3 which meets the requirements presented above). Otherwise you could try to specify complete path to the Python executable and the script.</p>
+<h3>B) PyTelTools as an external program</h3>
+<h3>B.1) Configure PYTHONPATH</h3>
+<p>Firstly, add the <code>PyTelTools</code> folder (which contains this <code>README.md</code> file) repository into the <code>PYTHONPATH</code> environment variable of your operating system.</p>
+<p>For Windows, you can find some help on the <a href="https://docs.python.org/3.7/using/windows.html#excursus-setting-environment-variables">official python documentation</a>.</p>
+<p>On Linux, you easily do this through a command line like (or add directly this line in your <code>~/.bashrc</code>): </p><div class="fragment"><div class="line">$ export PYTHONPATH=$PYTHONPATH:/home/opentelemac/PyTelTools</div></div><!-- fragment --><h3>Open interface</h3>
+<p>From the <code>PyTelTools</code> folder (containing this <code>README.md</code> file), simply run: </p><div class="fragment"><div class="line">$ python cli/pyteltools_gui.py</div><div class="line"># See help message to open a specific interface (classic or workflow)</div><div class="line">$ python cli/pyteltools_gui.py -h</div></div><!-- fragment --><h3>Use command line for workflow</h3>
+<p><b>Load</b> a workflow project file in the <b>GUI</b> (in mono tab): </p><div class="fragment"><div class="line">$ python pyteltools/workflow/workflow_gui.py -i path_to_workflow_project_file.txt</div></div><!-- fragment --><p><b>Load</b> and <b>run</b> a workflow project from the <b>command line</b>: </p><div class="fragment"><div class="line">$ python pyteltools/workflow/mono_gui.py -i path_to_workflow_project_file.txt</div><div class="line">$ python pyteltools/workflow/multi_gui.py -i path_to_workflow_project_file.txt</div></div><!-- fragment --><p>The argument <code>-h</code> provides a <b>help</b> message for the corresponding script and specify its <b>usage</b>. Output <b>verbosity</b> can be increased (debug mode) with <code>-v</code> argument.</p>
 <h2>Configure</h2>
-<p>Modify <code>conf/settings.py</code> to change default parameters. </p>
+<p>PyTelTools comes with a set of <b>default parameters</b> which determine its behavior and some assumptions and options.</p>
+<p>The recommended way to modify PyTelTools configuration is to write a <b>user configuration file</b> in <b>JSON</b> file format and refer to it in an environment variable named <code>PYTELTOOLS_SETTINGS</code>. The environment variable <code>PYTELTOOLS_SETTINGS</code> has to contain the <b>absolute path</b> to this file. For example, it could something like: <code>/home/user/pyteltools/cfg.json</code> or <code>C:\Users\MyAccount\Documents\config_pyteltools.json</code>.</p>
+<p>The parameters defined in the user configuration file will be used instead of the default parameter.</p>
+<p>For example to change default Serafin language (for variable detection) and to change increase verbosity (to debug mode), the JSON file should be: </p><div class="fragment"><div class="line">{</div><div class="line">    &quot;LANG&quot;: &quot;en&quot;,</div><div class="line">    &quot;LOGGING_LEVEL&quot;: 10</div><div class="line">}</div></div><!-- fragment --><p>Here is a second example of a JSON configuration file with a more complex configuration: </p><div class="fragment"><div class="line">{</div><div class="line">    &quot;DIGITS&quot;: 8,</div><div class="line">    &quot;NCSIZE&quot;: 6,</div><div class="line">    &quot;SCENE_SIZE&quot;: [2000, 1200],</div><div class="line">    &quot;SERAFIN_EXT&quot;: [&quot;.slf&quot;, &quot;.srf&quot;, &quot;.res&quot;],</div><div class="line">    &quot;WRITE_XYZ_HEADER&quot;: false,</div><div class="line">    &quot;X_AXIS_LABEL&quot;: &quot;X coordinate (m)&quot;,</div><div class="line">    &quot;Y_AXIS_LABEL&quot;: &quot;Y coordinate (m)&quot;</div><div class="line">}</div></div><!-- fragment --><p>PyTelTools configuration relies on the Python package <a href="https://pypi.python.org/pypi/simple-settings">simple-settings</a> and all the parameters are defined and described in <a href="https://github.com/CNR-Engineering/PyTelTools/blob/master/pyteltools/conf/default_settings.py">pyteltools/conf/default_settings.py</a>. </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
