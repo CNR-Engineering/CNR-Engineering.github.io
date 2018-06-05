@@ -1,14 +1,17 @@
 var searchData=
 [
   ['variable',['Variable',['../classpyteltools_1_1slf_1_1variable_1_1variables__utils_1_1_variable.html',1,'pyteltools::slf::variable::variables_utils']]],
-  ['variablelist',['VariableList',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_variable_list.html',1,'pyteltools::gui::CalculatorGUI']]],
+  ['variablelist',['VariableList',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_variable_list.html',1,'pyteltools.gui.CalculatorGUI.VariableList'],['../classpyteltools_1_1gui_1_1_calculator_g_u_i___d_e_v_1_1_variable_list.html',1,'pyteltools.gui.CalculatorGUI_DEV.VariableList']]],
   ['variablestestcase',['VariablesTestCase',['../classpyteltools_1_1tests_1_1test__variables_1_1_variables_test_case.html',1,'pyteltools::tests::test_variables']]],
   ['variabletable',['VariableTable',['../classpyteltools_1_1gui_1_1util_1_1_variable_table.html',1,'pyteltools::gui::util']]],
   ['vectormapcanvas',['VectorMapCanvas',['../classpyteltools_1_1workflow_1_1util_1_1_vector_map_canvas.html',1,'pyteltools::workflow::util']]],
   ['vectormapviewer',['VectorMapViewer',['../classpyteltools_1_1workflow_1_1util_1_1_vector_map_viewer.html',1,'pyteltools::workflow::util']]],
   ['vectormaxminmeancalculator',['VectorMaxMinMeanCalculator',['../classpyteltools_1_1slf_1_1misc_1_1_vector_max_min_mean_calculator.html',1,'pyteltools::slf::misc']]],
+  ['vertical_5foperation',['vertical_operation',['../classpyteltools_1_1workflow_1_1nodes__op_1_1_vertical_aggregation_node.html#aef45b2022d1ffd6a1a4bc770b50fc715',1,'pyteltools::workflow::nodes_op::VerticalAggregationNode']]],
+  ['verticalaggregationnode',['VerticalAggregationNode',['../classpyteltools_1_1workflow_1_1nodes__op_1_1_vertical_aggregation_node.html',1,'pyteltools::workflow::nodes_op']]],
   ['verticalcrosssectionnode',['VerticalCrossSectionNode',['../classpyteltools_1_1workflow_1_1nodes__vis_1_1_vertical_cross_section_node.html',1,'pyteltools::workflow::nodes_vis']]],
   ['verticalcrosssectionplotviewer',['VerticalCrossSectionPlotViewer',['../classpyteltools_1_1workflow_1_1util_1_1_vertical_cross_section_plot_viewer.html',1,'pyteltools::workflow::util']]],
+  ['verticalmaxminmeancalculator',['VerticalMaxMinMeanCalculator',['../classpyteltools_1_1slf_1_1misc_1_1_vertical_max_min_mean_calculator.html',1,'pyteltools::slf::misc']]],
   ['verticalprofileplotviewer',['VerticalProfilePlotViewer',['../classpyteltools_1_1workflow_1_1util_1_1_vertical_profile_plot_viewer.html',1,'pyteltools::workflow::util']]],
   ['verticaltemporalprofilenode',['VerticalTemporalProfileNode',['../classpyteltools_1_1workflow_1_1nodes__vis_1_1_vertical_temporal_profile_node.html',1,'pyteltools::workflow::nodes_vis']]],
   ['visualizescalarvaluesnode',['VisualizeScalarValuesNode',['../classpyteltools_1_1workflow_1_1nodes__vis_1_1_visualize_scalar_values_node.html',1,'pyteltools::workflow::nodes_vis']]],

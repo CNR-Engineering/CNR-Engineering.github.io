@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['add_5fargument_5fgroup',['add_argument_group',['../classpyteltools_1_1utils_1_1cli_1_1_py_tel_tools_arg_parse.html#a58c7499368b1b01812a317a5813780e7',1,'pyteltools::utils::cli::PyTelToolsArgParse']]],
-  ['add_5fgroup_5fgeneral',['add_group_general',['../classpyteltools_1_1utils_1_1cli_1_1_py_tel_tools_arg_parse.html#a6156ba0919b9ba101550abbd6b773ff4',1,'pyteltools::utils::cli::PyTelToolsArgParse']]],
-  ['add_5fknown_5fargument',['add_known_argument',['../classpyteltools_1_1utils_1_1cli_1_1_py_tel_tools_arg_parse.html#acbc771c2cf7ea7cde2c566d20ed27249',1,'pyteltools::utils::cli::PyTelToolsArgParse']]],
+  ['add_5fargument_5fgroup',['add_argument_group',['../classpyteltools_1_1utils_1_1cli__base_1_1_py_tel_tools_arg_parse.html#ad8e0e005dae77bf126e8ae6ebaaaca96',1,'pyteltools::utils::cli_base::PyTelToolsArgParse']]],
+  ['add_5fgroup_5fgeneral',['add_group_general',['../classpyteltools_1_1utils_1_1cli__base_1_1_py_tel_tools_arg_parse.html#a8d712df4b0b2f63501345e52f1ff1c8f',1,'pyteltools::utils::cli_base::PyTelToolsArgParse']]],
+  ['add_5fknown_5fargument',['add_known_argument',['../classpyteltools_1_1utils_1_1cli__base_1_1_py_tel_tools_arg_parse.html#af2c5c847a0d0df3e0b1d9c6fd6580d9d',1,'pyteltools::utils::cli_base::PyTelToolsArgParse']]],
   ['add_5fpolygon',['add_polygon',['../classpyteltools_1_1slf_1_1comparison_1_1_reference_mesh.html#a0bd73c4969621d283ec6bfa7c7f8b6e0',1,'pyteltools::slf::comparison::ReferenceMesh']]],
   ['add_5fvariable',['add_variable',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#a1cab66036f86ae49bdbdfcb8fde5b2ef',1,'pyteltools::slf::Serafin::SerafinHeader']]],
   ['add_5fvariable_5ffrom_5fid',['add_variable_from_ID',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#ab9f5720ac747aa465766ce91e05108c4',1,'pyteltools::slf::Serafin::SerafinHeader']]],

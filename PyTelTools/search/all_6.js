@@ -11,5 +11,7 @@ var searchData=
   ['fluxplotviewer',['FluxPlotViewer',['../classpyteltools_1_1gui_1_1util_1_1_flux_plot_viewer.html',1,'pyteltools::gui::util']]],
   ['fluxtestcase',['FluxTestCase',['../classpyteltools_1_1tests_1_1test__flux_1_1_flux_test_case.html',1,'pyteltools::tests::test_flux']]],
   ['four_5fparameters_5foptimization',['four_parameters_optimization',['../namespacepyteltools_1_1geom_1_1transformation.html#a3f8d22f92f5d1ef257034cef0f70a1c6',1,'pyteltools::geom::transformation']]],
-  ['frictionlawmessage',['FrictionLawMessage',['../classpyteltools_1_1gui_1_1util_1_1_friction_law_message.html',1,'pyteltools::gui::util']]]
+  ['frictionlawmessage',['FrictionLawMessage',['../classpyteltools_1_1gui_1_1util_1_1_friction_law_message.html',1,'pyteltools::gui::util']]],
+  ['from_5ffile',['from_file',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#ab94b6e8ec33c32c399ca4b76787667ac',1,'pyteltools::slf::Serafin::SerafinHeader']]],
+  ['from_5ftriangulation',['from_triangulation',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#afe43d9b2ab8d4ebd3364b0880a9455aa',1,'pyteltools::slf::Serafin::SerafinHeader']]]
 ];

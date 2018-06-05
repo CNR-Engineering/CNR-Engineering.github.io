@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calculatorgui',['CalculatorGUI',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_calculator_g_u_i.html',1,'pyteltools::gui::CalculatorGUI']]],
+  ['calculatorgui',['CalculatorGUI',['../classpyteltools_1_1gui_1_1_calculator_g_u_i___d_e_v_1_1_calculator_g_u_i.html',1,'pyteltools.gui.CalculatorGUI_DEV.CalculatorGUI'],['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_calculator_g_u_i.html',1,'pyteltools.gui.CalculatorGUI.CalculatorGUI']]],
   ['category',['category',['../classpyteltools_1_1workflow_1_1_node_1_1_node.html#aae301cdcdba3d82a4bfc8de2c8433a1b',1,'pyteltools::workflow::Node::Node']]],
   ['classicmainwindow',['ClassicMainWindow',['../classpyteltools_1_1gui_1_1classic__gui_1_1_classic_main_window.html',1,'pyteltools::gui::classic_gui']]],
   ['cmdmessage',['CmdMessage',['../classpyteltools_1_1workflow_1_1multi__gui_1_1_cmd_message.html',1,'pyteltools::workflow::multi_gui']]],
@@ -27,7 +27,7 @@ var searchData=
   ['computevolumenode',['ComputeVolumeNode',['../classpyteltools_1_1workflow_1_1nodes__calc_1_1_compute_volume_node.html',1,'pyteltools::workflow::nodes_calc']]],
   ['condition',['Condition',['../classpyteltools_1_1slf_1_1misc_1_1_condition.html',1,'pyteltools::slf::misc']]],
   ['conditionalexpression',['ConditionalExpression',['../classpyteltools_1_1slf_1_1expression_1_1expression_1_1_conditional_expression.html',1,'pyteltools::slf::expression::expression']]],
-  ['conditiondialog',['ConditionDialog',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_condition_dialog.html',1,'pyteltools.gui.CalculatorGUI.ConditionDialog'],['../classpyteltools_1_1gui_1_1util_1_1_condition_dialog.html',1,'pyteltools.gui.util.ConditionDialog']]],
+  ['conditiondialog',['ConditionDialog',['../classpyteltools_1_1gui_1_1_calculator_g_u_i___d_e_v_1_1_condition_dialog.html',1,'pyteltools.gui.CalculatorGUI_DEV.ConditionDialog'],['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_condition_dialog.html',1,'pyteltools.gui.CalculatorGUI.ConditionDialog'],['../classpyteltools_1_1gui_1_1util_1_1_condition_dialog.html',1,'pyteltools.gui.util.ConditionDialog']]],
   ['configure',['configure',['../classpyteltools_1_1workflow_1_1_node_1_1_node.html#aeaa38194219ad34c65018d2c5408637c',1,'pyteltools::workflow::Node::Node']]],
   ['configuredialog',['ConfigureDialog',['../classpyteltools_1_1workflow_1_1util_1_1_configure_dialog.html',1,'pyteltools::workflow::util']]],
   ['construct_5fintersections',['construct_intersections',['../classpyteltools_1_1slf_1_1flux_1_1_flux_calculator.html#ab924a085abfdcf84fdb8d078e4db4f30',1,'pyteltools::slf::flux::FluxCalculator']]],
@@ -36,9 +36,12 @@ var searchData=
   ['converttosingleprecisionnode',['ConvertToSinglePrecisionNode',['../classpyteltools_1_1workflow_1_1nodes__op_1_1_convert_to_single_precision_node.html',1,'pyteltools::workflow::nodes_op']]],
   ['copy',['copy',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#aeb4f3bae5c8127a072cc51cc6b9a6285',1,'pyteltools::slf::Serafin::SerafinHeader']]],
   ['copy_5fas_5f2d',['copy_as_2d',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#a64ba02d8c6484a6e797d59dcd15f0692',1,'pyteltools::slf::Serafin::SerafinHeader']]],
+  ['copy_5fas_5f3d',['copy_as_3d',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#a8229a5a153b9fade2a0ff695a0206551',1,'pyteltools::slf::Serafin::SerafinHeader']]],
   ['csvdata',['CSVData',['../classpyteltools_1_1slf_1_1datatypes_1_1_c_s_v_data.html',1,'pyteltools::slf::datatypes']]],
   ['csvtab',['CSVTab',['../classpyteltools_1_1gui_1_1_lines_g_u_i_1_1_c_s_v_tab.html',1,'pyteltools.gui.LinesGUI.CSVTab'],['../classpyteltools_1_1gui_1_1_project_lines_g_u_i_1_1_c_s_v_tab.html',1,'pyteltools.gui.ProjectLinesGUI.CSVTab']]],
-  ['customformatter',['CustomFormatter',['../classpyteltools_1_1utils_1_1cli_1_1_custom_formatter.html',1,'pyteltools::utils::cli']]],
+  ['customformatter',['CustomFormatter',['../classpyteltools_1_1utils_1_1cli__base_1_1_custom_formatter.html',1,'pyteltools::utils::cli_base']]],
   ['contributing',['Contributing',['../md__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
-  ['conventions',['Conventions',['../md_conventions.html',1,'']]]
+  ['conventions',['Conventions',['../md_conventions.html',1,'']]],
+  ['cli_5fusage',['cli_usage',['../md_doc_cli_usage.html',1,'']]],
+  ['cli_5fusage',['cli_usage',['../md_pyteltools_utils_cli_usage.html',1,'']]]
 ];

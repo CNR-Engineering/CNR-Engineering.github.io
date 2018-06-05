@@ -6,5 +6,6 @@ var searchData=
   ['construct_5fintersections',['construct_intersections',['../classpyteltools_1_1slf_1_1flux_1_1_flux_calculator.html#ab924a085abfdcf84fdb8d078e4db4f30',1,'pyteltools::slf::flux::FluxCalculator']]],
   ['construct_5ftriangles',['construct_triangles',['../classpyteltools_1_1slf_1_1flux_1_1_flux_calculator.html#abc9b9ecc52ba9ad154cc7d50b5a78647',1,'pyteltools::slf::flux::FluxCalculator']]],
   ['copy',['copy',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#aeb4f3bae5c8127a072cc51cc6b9a6285',1,'pyteltools::slf::Serafin::SerafinHeader']]],
-  ['copy_5fas_5f2d',['copy_as_2d',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#a64ba02d8c6484a6e797d59dcd15f0692',1,'pyteltools::slf::Serafin::SerafinHeader']]]
+  ['copy_5fas_5f2d',['copy_as_2d',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#a64ba02d8c6484a6e797d59dcd15f0692',1,'pyteltools::slf::Serafin::SerafinHeader']]],
+  ['copy_5fas_5f3d',['copy_as_3d',['../classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html#a8229a5a153b9fade2a0ff695a0206551',1,'pyteltools::slf::Serafin::SerafinHeader']]]
 ];
