@@ -1,7 +1,7 @@
 var searchData=
 [
   ['variable',['Variable',['../classpyteltools_1_1slf_1_1variable_1_1variables__utils_1_1_variable.html',1,'pyteltools::slf::variable::variables_utils']]],
-  ['variablelist',['VariableList',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_variable_list.html',1,'pyteltools.gui.CalculatorGUI.VariableList'],['../classpyteltools_1_1gui_1_1_calculator_g_u_i___d_e_v_1_1_variable_list.html',1,'pyteltools.gui.CalculatorGUI_DEV.VariableList']]],
+  ['variablelist',['VariableList',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_variable_list.html',1,'pyteltools::gui::CalculatorGUI']]],
   ['variablestestcase',['VariablesTestCase',['../classpyteltools_1_1tests_1_1test__variables_1_1_variables_test_case.html',1,'pyteltools::tests::test_variables']]],
   ['variabletable',['VariableTable',['../classpyteltools_1_1gui_1_1util_1_1_variable_table.html',1,'pyteltools::gui::util']]],
   ['vectormapcanvas',['VectorMapCanvas',['../classpyteltools_1_1workflow_1_1util_1_1_vector_map_canvas.html',1,'pyteltools::workflow::util']]],

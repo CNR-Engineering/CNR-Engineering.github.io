@@ -54,7 +54,6 @@ var searchData=
   ['pyteltoolsargparse',['PyTelToolsArgParse',['../classpyteltools_1_1utils_1_1cli__base_1_1_py_tel_tools_arg_parse.html',1,'pyteltools::utils::cli_base']]],
   ['pyteltoolwidget',['PyTelToolWidget',['../classpyteltools_1_1gui_1_1util_1_1_py_tel_tool_widget.html',1,'pyteltools::gui::util']]],
   ['serafin',['Serafin',['../namespacepyteltools_1_1slf_1_1_serafin.html',1,'pyteltools::slf']]],
-  ['shapefile',['Shapefile',['../namespacepyteltools_1_1geom_1_1_shapefile.html',1,'pyteltools::geom']]],
   ['test_5fflux',['test_flux',['../namespacepyteltools_1_1tests_1_1test__flux.html',1,'pyteltools::tests']]],
   ['test_5fvariables',['test_variables',['../namespacepyteltools_1_1tests_1_1test__variables.html',1,'pyteltools::tests']]],
   ['test_5fvolume',['test_volume',['../namespacepyteltools_1_1tests_1_1test__volume.html',1,'pyteltools::tests']]],

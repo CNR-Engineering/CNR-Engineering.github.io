@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calculatorgui',['CalculatorGUI',['../classpyteltools_1_1gui_1_1_calculator_g_u_i___d_e_v_1_1_calculator_g_u_i.html',1,'pyteltools.gui.CalculatorGUI_DEV.CalculatorGUI'],['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_calculator_g_u_i.html',1,'pyteltools.gui.CalculatorGUI.CalculatorGUI']]],
+  ['calculatorgui',['CalculatorGUI',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_calculator_g_u_i.html',1,'pyteltools::gui::CalculatorGUI']]],
   ['category',['category',['../classpyteltools_1_1workflow_1_1_node_1_1_node.html#aae301cdcdba3d82a4bfc8de2c8433a1b',1,'pyteltools::workflow::Node::Node']]],
   ['classicmainwindow',['ClassicMainWindow',['../classpyteltools_1_1gui_1_1classic__gui_1_1_classic_main_window.html',1,'pyteltools::gui::classic_gui']]],
   ['cmdmessage',['CmdMessage',['../classpyteltools_1_1workflow_1_1multi__gui_1_1_cmd_message.html',1,'pyteltools::workflow::multi_gui']]],
@@ -27,7 +27,7 @@ var searchData=
   ['computevolumenode',['ComputeVolumeNode',['../classpyteltools_1_1workflow_1_1nodes__calc_1_1_compute_volume_node.html',1,'pyteltools::workflow::nodes_calc']]],
   ['condition',['Condition',['../classpyteltools_1_1slf_1_1misc_1_1_condition.html',1,'pyteltools::slf::misc']]],
   ['conditionalexpression',['ConditionalExpression',['../classpyteltools_1_1slf_1_1expression_1_1expression_1_1_conditional_expression.html',1,'pyteltools::slf::expression::expression']]],
-  ['conditiondialog',['ConditionDialog',['../classpyteltools_1_1gui_1_1_calculator_g_u_i___d_e_v_1_1_condition_dialog.html',1,'pyteltools.gui.CalculatorGUI_DEV.ConditionDialog'],['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_condition_dialog.html',1,'pyteltools.gui.CalculatorGUI.ConditionDialog'],['../classpyteltools_1_1gui_1_1util_1_1_condition_dialog.html',1,'pyteltools.gui.util.ConditionDialog']]],
+  ['conditiondialog',['ConditionDialog',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_condition_dialog.html',1,'pyteltools.gui.CalculatorGUI.ConditionDialog'],['../classpyteltools_1_1gui_1_1util_1_1_condition_dialog.html',1,'pyteltools.gui.util.ConditionDialog']]],
   ['configure',['configure',['../classpyteltools_1_1workflow_1_1_node_1_1_node.html#aeaa38194219ad34c65018d2c5408637c',1,'pyteltools::workflow::Node::Node']]],
   ['configuredialog',['ConfigureDialog',['../classpyteltools_1_1workflow_1_1util_1_1_configure_dialog.html',1,'pyteltools::workflow::util']]],
   ['construct_5fintersections',['construct_intersections',['../classpyteltools_1_1slf_1_1flux_1_1_flux_calculator.html#ab924a085abfdcf84fdb8d078e4db4f30',1,'pyteltools::slf::flux::FluxCalculator']]],
@@ -42,6 +42,5 @@ var searchData=
   ['customformatter',['CustomFormatter',['../classpyteltools_1_1utils_1_1cli__base_1_1_custom_formatter.html',1,'pyteltools::utils::cli_base']]],
   ['contributing',['Contributing',['../md__c_o_n_t_r_i_b_u_t_i_n_g.html',1,'']]],
   ['conventions',['Conventions',['../md_conventions.html',1,'']]],
-  ['cli_5fusage',['cli_usage',['../md_doc_cli_usage.html',1,'']]],
   ['cli_5fusage',['cli_usage',['../md_pyteltools_utils_cli_usage.html',1,'']]]
 ];

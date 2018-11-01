@@ -92,8 +92,9 @@ Inheritance diagram for pyteltools.slf.mesh2D.Mesh2D:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a155dccf2e2264a436fddcb2e4b377314"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpyteltools_1_1slf_1_1mesh2_d_1_1_mesh2_d.html#a155dccf2e2264a436fddcb2e4b377314">__init__</a> (self, input_header, construct_index=False, iter_pbar=lambda x:x)</td></tr>
-<tr class="separator:a155dccf2e2264a436fddcb2e4b377314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ce3a223fbc70eaf8f7d201bde7026b"><td class="memItemLeft" align="right" valign="top"><a id="a79ce3a223fbc70eaf8f7d201bde7026b"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><b>__init__</b></td></tr>
+<tr class="separator:a79ce3a223fbc70eaf8f7d201bde7026b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f39553712b5ec8ca34c3df061bcdd03"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpyteltools_1_1slf_1_1mesh2_d_1_1_mesh2_d.html#a2f39553712b5ec8ca34c3df061bcdd03">get_intersecting_elements</a> (self, bounding_box)</td></tr>
 <tr class="memdesc:a2f39553712b5ec8ca34c3df061bcdd03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the triangles in the mesh intersecting the bounding box.  <a href="#a2f39553712b5ec8ca34c3df061bcdd03">More...</a><br /></td></tr>
 <tr class="separator:a2f39553712b5ec8ca34c3df061bcdd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,56 +126,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The general representation of mesh in <a class="el" href="namespacepyteltools_1_1slf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> 2D. </p>
 <p>The basis for interpolation, volume calculations etc. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a155dccf2e2264a436fddcb2e4b377314"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a155dccf2e2264a436fddcb2e4b377314">&#9670;&nbsp;</a></span>__init__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def pyteltools.slf.mesh2D.Mesh2D.__init__ </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>input_header</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>construct_index</em> = <code>False</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>iter_pbar</em> = <code>lambda&#160;x:&#160;x</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">input_header</td><td>&lt;<a class="el" href="classpyteltools_1_1slf_1_1_serafin_1_1_serafin_header.html" title=": Data type for reading and storing the Serafin file header ">slf.Serafin.SerafinHeader</a>&gt;: input <a class="el" href="namespacepyteltools_1_1slf_1_1_serafin.html" title="Read/Write Serafin files and manipulate associated data. ">Serafin</a> header </td></tr>
-    <tr><td class="paramname">construct_index</td><td>&lt;bool&gt;: perform the index construction </td></tr>
-    <tr><td class="paramname">iter_pbar</td><td>iterable progress bar </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2f39553712b5ec8ca34c3df061bcdd03"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f39553712b5ec8ca34c3df061bcdd03">&#9670;&nbsp;</a></span>get_intersecting_elements()</h2>
 
@@ -208,7 +160,7 @@ Public Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>&lt;[tuple]&gt;: The list of triangles (i,j,k) intersecting the bounding box /!\ The returned list is not sorted </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>&lt;[tuple]&gt;: The list of triangles (i,j,k) intersecting the bounding box Beware: The returned list is not sorted </dd></dl>
 
 </div>
 </div>

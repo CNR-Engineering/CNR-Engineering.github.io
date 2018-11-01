@@ -74,8 +74,14 @@ $(function() {
 <li>comment language: English</li>
 <li>shebang: <code>#!/usr/bin/env python</code></li>
 </ul>
+<h2>pylint</h2>
+<div class="image">
+<object type="image/svg+xml" data="https://mperlet.github.io/pybadge/badges/8.50.svg" alt="pylint Score"></object>
+</div>
+<p>Simply run pylint with: </p><div class="fragment"><div class="line">pylint pyteltools</div></div><!-- fragment --><p> The configuration file <code>.pylintrc</code> will be used.</p>
 <h2>Module imports</h2>
-<p>Avoid any import with * except for PyQt5: </p><div class="fragment"><div class="line">from PyQt5.QtCore import *</div><div class="line">from PyQt5.QtGui import *</div><div class="line">from PyQt5.QtWidgets import *</div></div><!-- fragment --><h3>Group and order imports</h3>
+<p>Avoid any wildcard imports.</p>
+<h3>Group and order imports</h3>
 <p>Three groups for line imports are separated by an empty line:</p><ol type="1">
 <li>internal Python imports</li>
 <li>imports from PyTelTools</li>

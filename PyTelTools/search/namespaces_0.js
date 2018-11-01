@@ -11,7 +11,6 @@ var searchData=
   ['misc',['misc',['../namespacepyteltools_1_1slf_1_1misc.html',1,'pyteltools::slf']]],
   ['pyteltools_5fgui',['pyteltools_gui',['../namespacepyteltools__gui.html',1,'']]],
   ['serafin',['Serafin',['../namespacepyteltools_1_1slf_1_1_serafin.html',1,'pyteltools::slf']]],
-  ['shapefile',['Shapefile',['../namespacepyteltools_1_1geom_1_1_shapefile.html',1,'pyteltools::geom']]],
   ['test_5fflux',['test_flux',['../namespacepyteltools_1_1tests_1_1test__flux.html',1,'pyteltools::tests']]],
   ['test_5fvariables',['test_variables',['../namespacepyteltools_1_1tests_1_1test__variables.html',1,'pyteltools::tests']]],
   ['test_5fvolume',['test_volume',['../namespacepyteltools_1_1tests_1_1test__volume.html',1,'pyteltools::tests']]],

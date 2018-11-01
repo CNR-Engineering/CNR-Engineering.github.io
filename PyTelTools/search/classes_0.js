@@ -8,6 +8,6 @@ var searchData=
   ['arrivaldurationnode',['ArrivalDurationNode',['../classpyteltools_1_1workflow_1_1nodes__calc_1_1_arrival_duration_node.html',1,'pyteltools::workflow::nodes_calc']]],
   ['arrivaldurationtab',['ArrivalDurationTab',['../classpyteltools_1_1gui_1_1_max_min_mean_g_u_i_1_1_arrival_duration_tab.html',1,'pyteltools::gui::MaxMinMeanGUI']]],
   ['arrivaldurationthread',['ArrivalDurationThread',['../classpyteltools_1_1gui_1_1_max_min_mean_g_u_i_1_1_arrival_duration_thread.html',1,'pyteltools::gui::MaxMinMeanGUI']]],
-  ['attributedialog',['AttributeDialog',['../classpyteltools_1_1gui_1_1_calculator_g_u_i___d_e_v_1_1_attribute_dialog.html',1,'pyteltools.gui.CalculatorGUI_DEV.AttributeDialog'],['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_attribute_dialog.html',1,'pyteltools.gui.CalculatorGUI.AttributeDialog']]],
+  ['attributedialog',['AttributeDialog',['../classpyteltools_1_1gui_1_1_calculator_g_u_i_1_1_attribute_dialog.html',1,'pyteltools::gui::CalculatorGUI']]],
   ['availablecolortable',['AvailableColorTable',['../classpyteltools_1_1gui_1_1util_1_1_available_color_table.html',1,'pyteltools::gui::util']]]
 ];
